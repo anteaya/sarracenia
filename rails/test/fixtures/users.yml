@@ -1,0 +1,23 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+one:
+  id: 1
+  company_id: 1
+  user_name: "asmith"
+  user_type: 0
+  first_name: 'Aaron'
+  last_name: 'Smith'
+  email: 'beingthexemplary@gmail.com'
+  phone: '7863741852'
+  password: 'smithers'
+  should_notify: 1
+two:
+  id: 2
+  company_id: 2
+  user_type: 0
+  user_name: "davidh"
+  first_name: 'David'
+  last_name: 'Hasselhoff'
+  email: 'hasselhoffary@gmail.com'
+  phone: '8004567834'
+  password: 'davidh'
+  should_notify: 0

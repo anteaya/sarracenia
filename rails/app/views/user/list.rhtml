@@ -1,0 +1,38 @@
+<div id="content">
+  <div class="users">
+    <div class="box">
+			<small><%= link_to 'New User', :action => 'new' %></small><br/>
+				<table cellspacing=10>
+					<tr>
+					<% c=0 %>  		  
+					<% for user in @users %>
+						<% if c % 3 == 0 %>
+							</tr>
+							<tr>
+						<% end %>
+					    <td class='user'>
+					    	<strong><%= "#{user.first_name} #{user.last_name}" %></strong> <small>(<%= user_types()[user.user_type] %>)<br/>
+								<span class='userinfo'>
+									<a href='mailto:<%= "#{user.email}" %>'><%= user.email %></a><br/>
+									Company: <%= user.company.name %><br/>
+									Phone: <%= user.phone %><br/>
+									<%= link_to 'Edit', :action => 'edit', :id => user %> | 
+									<%= link_to 'Destroy', { :action => 'destroy', :id => user }, :confirm => 'Are you sure?', :method => :post %>
+								</span>
+					    </td>
+							<% c = c + 1 %>
+							<% if c % 3 == 0 %>
+								</tr>
+							<% end %>
+					<% end %>
+					</table>
+
+					<%= link_to 'Previous page', { :page => @user_pages.current.previous } if @user_pages.current.previous %>
+					<%= link_to 'Next page', { :page => @user_pages.current.next } if @user_pages.current.next %> 
+
+					<br />
+				</div>
+		  </div>
+		</div>
+	</div>
+</div>

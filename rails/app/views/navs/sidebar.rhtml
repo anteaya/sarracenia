@@ -1,0 +1,45 @@
+<div id='sidebar'>
+	<h4>Projects</h4>
+	<ul>
+		<% @projects = Project.find(:all, :order => 'name ASC') %>
+		<% for project in @projects %>
+			<li><a href='/bugs/list/<%= project.name %>'><%= project.name %></a></li>
+		<% end %>
+	</ul>
+	<h4>Bugs</h4>
+	<ul>
+		<li><a href="allbugs.html" class="nav">All bugs</a></li>
+		<li><a href='mybugs.html' class="nav">All of my bugs</a></li>
+	</ul>
+	
+	<h4>Bug Traps</h4>
+	<ul>
+		<li><a href='#'>Red</a></li>
+		<li><a href='#'>Orange</a></li>
+		<li><a href='#'>Yellow</a></li>
+		<li><a href='#'>Closed</a></li>
+		<li><a href='#'>Requires Feedback</a></li>
+		<li><a href='#'>From Application</a></li>
+	</ul>
+	<h4>Filter Modifiers</h4>
+	<ul>
+		<li><a href='#'>Date Descending</a></li>
+		<li><a href='#'>Date Ascending</a></li>
+	</ul>
+	<h4>Syndication</h4>
+	<ul>
+		<li><img src='/images/rss.jpg' /> <a href='#'>All Bugs</a></li>
+		<li><img src='/images/rss.jpg' /> <a href='#'>My Bugs</a></li>
+		<li><img src='/images/rss.jpg' /> <a href='#'>Closed Bugs</a></li>
+		<li><img src='/images/rss.jpg' /> <a href='#'>From Application</a></li>		
+	</ul>
+	<h4>Search</h4>
+	<div>
+		<form method="get" action="/search">
+			<input type="text" name="query" size="15" value="" /><br />
+			<input type="submit" name="submit" value="Search" />
+		</form>
+	</div>
+	<h4>&nbsp;</h4>
+		<small><a href='#'>anteaterbugs.com</a></small>
+</div>

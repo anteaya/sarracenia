@@ -1,0 +1,25 @@
+<%= error_messages_for 'bug' %>
+
+<!--[form:bug]-->
+<p><label for="bug_title">Title</label><br/>
+<%= text_field 'bug', 'title'  %></p>
+
+<p><label for="bug_description">Description</label><br/>
+<%= text_area 'bug', 'description'  %></p>
+
+<p><label for="bug_level">Level</label><br/>
+<%= text_field 'bug', 'level'  %></p>
+
+<p><label for="bug_status">Status</label><br/>
+<%= text_field 'bug', 'status'  %></p>
+
+<p><label for="bug_feedback">Feedback</label><br/>
+<%= text_field 'bug', 'feedback'  %></p>
+
+<p><label for="bug_created_on">Created on</label><br/>
+<%= date_select 'bug', 'created_on'  %></p>
+
+<p><label for="bug_udpated_on">Udpated on</label><br/>
+<%= date_select 'bug', 'udpated_on'  %></p>
+<!--[eoform:bug]-->
+

@@ -1,0 +1,27 @@
+<h1>Listing bugs</h1>
+
+<table>
+  <tr>
+  <% for column in Bug.content_columns %>
+    <th><%= column.human_name %></th>
+  <% end %>
+  </tr>
+  
+<% for bug in @bugs %>
+  <tr>
+  <% for column in Bug.content_columns %>
+    <td><%=h bug.send(column.name) %></td>
+  <% end %>
+    <td><%= link_to 'Show', :action => 'show', :id => bug %></td>
+    <td><%= link_to 'Edit', :action => 'edit', :id => bug %></td>
+    <td><%= link_to 'Destroy', { :action => 'destroy', :id => bug }, :confirm => 'Are you sure?', :method => :post %></td>
+  </tr>
+<% end %>
+</table>
+
+<%= link_to 'Previous page', { :page => @bug_pages.current.previous } if @bug_pages.current.previous %>
+<%= link_to 'Next page', { :page => @bug_pages.current.next } if @bug_pages.current.next %> 
+
+<br />
+
+<%= link_to 'New bug', :action => 'new' %>
