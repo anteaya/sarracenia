@@ -1,0 +1,377 @@
+.clear { clear: both; }
+a, a:link, a:visited { color: #a00000; text-decoration: none; }
+a:hover { text-decoration: underline; }
+.currentlink { text-decoration: underline ! important; }
+a img { border-width: 0; }
+h1, h2, h3 { color: #DA0006; font-family: georgia, verdana, sans-serif; }
+h1 { font-size: 24px}
+h2 { font-size: 18px }
+h3 { font-size: 16px }
+h3.normal{ color:black; font-family:verdana, arial, helvetica, sans-serif; font-size:1.1em;}
+h4 { margin-top:5px; margin-bottom:8px; padding:0;}
+.left { float: left; }
+.right { float: right; }
+
+body
+{
+  font-family: "Lucida Grande", verdana, arial, helvetica, sans-serif;
+  font-size: 0.81em;
+  padding: 0 2ex 0 2ex;
+  margin: 0;
+  text-align: left;
+}
+
+#login{
+	margin-left:-15px;
+	padding:20px;
+	width:250px;
+}
+
+.pagename{
+	display: block;	
+  color: #444;
+  padding: 0;  
+	line-height: 10px;
+  font-size: 10px;
+	font-family: georgia, verdana, sans-serif;
+}
+
+h1#pageName {
+  margin: 5px 0 0;
+  padding: 0;
+  line-height: 28px;
+}
+
+h1#pageName small {
+  color: #444;
+  line-height: 10px;
+  font-size: 10px;
+  padding: 0;
+  display: block;
+}
+
+#sidebar {
+	position:absolute;
+  text-align: left;
+  width: 140px;
+  padding-right: 5px;
+  margin-right: 10px;
+  border-right: 1px solid #EEE;
+	margin-top:0;
+}
+
+#sidebar ul {
+  list-style-type: none; 
+  padding-left: 15px;
+  margin-left: 0;
+	margin:0;
+	margin-bottom:20px;
+}
+
+#container {
+  width: 78%;
+  float: left;
+  text-align: left;
+  margin: 5px auto 0 auto;
+	margin-left:180px;
+}
+
+div.navbar {
+  margin-top: 1.5ex;
+  margin-bottom: 1.5ex;
+}
+
+div.box {
+  background-color: #F8F8F8;
+  padding: 1ex;
+  margin-top: 0.8ex;
+  margin-bottom: 0.8ex;
+  border: 1px solid #777;
+}
+
+div.box h3 {
+  padding: 0px;
+  margin-top: 0.5ex;
+  margin-bottom: 0.5ex;
+}
+
+#content div.search select.large{
+	width:400px;
+}
+
+#content div.search select{
+	width:200px;
+}
+
+#content div.search input[type='text']{
+	width:400px;
+}
+
+#content div.search textarea{
+	width:406px;
+	height:300px;
+}
+
+#content div.users div.box table{
+	width:100%;
+	height:100%;
+}
+
+#content div.users div.box table tr td{
+	background:#ddd;
+	padding:5px;
+	margin:10px;
+}
+
+#content div.users div.box table tr td.user{
+	width:200px;
+}
+
+#content div.users div.box table tr td span.userinfo{
+	display:block;
+	margin-top:5px;
+	font-size:10px;
+	line-height:14px;
+	color:#444;
+}
+
+#content div.projects div.box table{
+	width:100%;
+	height:100%;
+}
+
+#content div.projects div.box table tr td{
+	background:#ddd;
+	padding:5px;
+	margin:10px;
+}
+
+#content div.projects div.box table tr td.user{
+	width:200px;
+}
+
+#content div.projects div.box table tr td span.userinfo{
+	display:block;
+	margin-top:5px;
+	font-size:10px;
+	line-height:14px;
+	color:#444;
+}
+
+#content div.projects div.box div.basecamp{
+	margin-top:10px;
+}
+
+#content div.projects div.box div.basecamp input[type='text']{
+	width:350px;
+}
+
+#content div.projects div.box div.basecamp tr td{
+	background:transparent;
+	padding:2px;
+	margin:2px;
+}
+
+#content div.user select.large{
+	width:400px;
+}
+
+#content div.list table.list tr td.last-update{
+	background:#ccc;
+	font:11px arial,verdana,helvetica,sans-serif;
+}
+
+form label {
+  margin-right: 1ex;
+}
+
+form .error {
+  color: red;
+}
+
+table.list {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.user div.show .user_message textarea {
+  width: 80ex;
+  height: 15em;
+}
+
+/* bugs list view */
+.bugs div.list .name {
+  font-weight: bold;
+} 
+
+.bugs div.list .description {
+  font-size: 0.8em;
+}
+
+.bugs div.list .edit {
+  font-size: smaller;
+  font-weight: normal;
+}
+
+/* bugs view */
+.bugs div.bugs td.subject {
+  width: 50%;
+}
+
+table.list th,td {
+  padding: 2px;
+  margin: 0;
+}
+
+/* <borders> */
+table.list {
+  border: 1px solid #EEE;
+}
+
+table.list th {
+  border-bottom: 1px solid #EEE;
+  background-color: #F8F8F8;
+}
+
+table.list td {
+  border-bottom: 1px solid #EEE;
+}
+
+.bugs .bugs table.topics td.subject {
+  border-left: 1px solid #EEE;
+}
+
+.bugs .bugs table.topics td.last-post {
+  border-right: 1px solid #EEE;
+}
+/* </borders> */
+
+
+.bugs .bugs table.topics .last-post {
+  padding-left: 15px;
+  font-size: smaller;
+}
+
+.bugs .bugs table.topics .new-posts .last-post {
+  background-color: #DDD;
+}
+
+.bugs .bugs table.topics td.replies {
+  text-align: center;
+}
+
+.bugs .bugs table.topics .new-posts .subject {
+  /*font-weight: bold;*/
+}
+
+.bugs .bugs table.topics .deleted-topic * {
+  color: #D0D0D0 ! important;
+}
+
+/* Topic view */
+.bugs .post {
+  margin-bottom: 1.5ex;
+  padding-bottom: 0.4ex;
+}
+
+.bugs .new-post .subject {
+  text-decoration: underline;
+}
+
+.bugs .deleted-post * {
+  color: #D0D0D0 ! important;
+}
+
+.bugs .post .subject {
+/*  background-color: orange; */
+  color: #101010;
+  margin-bottom: 5px;
+  font-size: 1.1em;
+}
+
+.bugs .post .subject a {
+  color: inherit ! important;
+}
+
+.bugs .post .info {
+  font-size: 0.7em;
+}
+
+.bugs .post .info div {
+  display: inline;
+}
+
+.bugs .post .info div.attachment {
+  display: block;
+}
+
+.bugs .post .text {
+  font-size: 1.0em;
+}
+
+.bugs .post .foot {
+  margin: 0;
+  text-align: right;
+  padding: 3px;
+  font-size: 0.8em;
+}
+
+.bugs .topic .foot a {
+/*  border: 1px solid grey;*/
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-bottom: 1px;
+  padding-top: 1px;
+  text-decoration: none;
+}
+
+/* Styles for simple quote coloring */
+.bugs .post span.quoting-level-1 { color: #007000; }
+.bugs .post span.quoting-level-2 { color: #000070; }
+.bugs .post span.quoting-level-3 { color: #700000; }
+.bugs .post span.quoting-level-5 { color: #800080; }
+.bugs .post span.quoting-level-4 { color: #006060; }
+.bugs .post span.quoting-level-6 { color: #606000; }
+
+/* Styles for new quote formatting */
+.bugs .post .quoting {
+  margin-left: 2px;
+  padding-left: 5px;
+  margin-bottom: 8px;
+  margin-top: 8px;
+  text-align: justify;
+}
+
+.bugs .post div.level-0 { margin: 0; padding: 0; }
+.bugs .post div.level-1 { border-left: 2px solid #007000; }
+.bugs .post div.level-2 { border-left: 2px solid #000070; }
+.bugs .post div.level-3 { border-left: 2px solid #700000; }
+.bugs .post div.level-4 { border-left: 2px solid #006060; }
+.bugs .post div.level-5 { border-left: 2px solid #800080; }
+.bugs .post div.level-6 { border-left: 2px solid #606000; }
+
+.bugs .post .text {
+  font-size: 12px;
+}
+
+.bugs .searchresults td.subject {
+  width: 50%;
+}
+
+.bugs .searchresults td.text {
+  font-size: smaller;
+}
+
+.bugs .searchresults td.text em {
+  color: red;
+}
+
+.bugs .post textarea.reply{
+	width:700px;
+	height:200px;
+}
+
+.bugs .box .options select.large{
+	width:400px;
+	height:100px;
+}
