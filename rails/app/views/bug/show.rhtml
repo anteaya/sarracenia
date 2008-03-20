@@ -1,8 +1,0 @@
-<% for column in Bug.content_columns %>
-<p>
-  <b><%= column.human_name %>:</b> <%=h @bug.send(column.name) %>
-</p>
-<% end %>
-
-<%= link_to 'Edit', :action => 'edit', :id => @bug %> |
-<%= link_to 'Back', :action => 'list' %>

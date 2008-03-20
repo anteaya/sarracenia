@@ -1,9 +1,0 @@
-<select name='company'>
-	<% @companies.each do |company| %>
-		<% if @company_select_id == company.id %>
-		<option value='<%= company.id %>' selected><%= company.name %></option>
-		<% else %>
-		<option value='<%= company.id %>' ><%= company.name %></option>
-		<% end %>
-	<% end %>
-</select><br/><br/>
