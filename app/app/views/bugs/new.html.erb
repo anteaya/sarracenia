@@ -1,0 +1,18 @@
+<h1>New bug</h1>
+<%= error_messages_for :bug %>
+<% form_for(@bug) do |f| %>
+    <p><label for="title">Title:</label><br /><%= f.text_field :title %></p>
+    <p><label for="description">Description:</label><br /><%= f.text_area :description %></p>
+    <p><label for="severity_id">Severity:</label><br /><%= options = [["Select severity..."]] + ["1", "2"]
+                                                            select("bug", "severity_id", options) %></p>
+    <p><label for="project_id">Project:</label><br /><%= options = [["Select project..."]] + ["1", "2"]
+                                                            select("bug", "project_id", options) %></p>
+    <p><label for="person_assigned_to">Assigned To:</label><br /><%= options = [["Assign to..."]] + ["1", "2"]
+                                                            select("bug", "person_assigned_to", options) %></p>
+    <p><label for="fixed">Fixed?</label><%= f.check_box :fixed %></p>
+    <p><label for="date_fixed">Date fixed:</label><br /><%= f.text_field :date_fixed %></p>
+    <p><label for="fixed_comment">Resolution:</label><br/><%= f.text_area :fixed_comment %></p>
+    <p><%= f.submit "Create" %></p>
+<% end %>
+
+<%= link_to 'Back', bugs_path %>

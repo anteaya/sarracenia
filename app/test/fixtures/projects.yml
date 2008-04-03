@@ -1,6 +1,5 @@
 # Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
-
- one:
+one:
     id: 1
     name: MERT
  two:

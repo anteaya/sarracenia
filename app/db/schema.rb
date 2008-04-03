@@ -22,7 +22,7 @@ ActiveRecord::Schema.define(:version => 2) do
     t.integer  "team_assigned_to"
     t.integer  "person_assigned_to"
     t.integer  "fixed_by"
-    t.string   "fixed_comment"
+    t.text     "fixed_comment"
     t.datetime "created_at"
     t.datetime "updated_at"
   end

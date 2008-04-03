@@ -11,7 +11,7 @@ class CreateBugs < ActiveRecord::Migration
       t.column :team_assigned_to, :integer
       t.column :person_assigned_to, :integer
       t.column :fixed_by, :integer
-      t.column :fixed_comment, :string
+      t.column :fixed_comment, :text
 
       t.timestamps
     end

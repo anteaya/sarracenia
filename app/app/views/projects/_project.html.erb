@@ -1,0 +1,10 @@
+<div>
+    ||<%= project.name %> |
+    Created: <%= project.created_at.to_s(:long) %> |
+    Last updated at: <%= project.updated_at.to_s(:long) %> ||
+    <small> <%= link_to 'Show', project %> |
+            <%= link_to 'Edit', edit_project_path(project) %> |
+            <%= link_to 'Destroy', project, :confirm => 'Are you sure?', :method => :delete %>
+    </small>
+</div>
+<hr />

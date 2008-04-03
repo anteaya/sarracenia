@@ -1,0 +1,85 @@
+class BugsController < ApplicationController
+
+  def index
+    @bugs = Bug.find(:all)
+    format_output @bugs
+  end
+
+  def edit
+    @bug = Bug.find(params[:id])
+  end
+
+  def new
+    @bug = Bug.new
+    format_output @bug
+  end
+
+  def show
+    @bug = Bug.find(params[:id])
+    format_output @bug
+  end
+  
+  def destroy
+    @bug = Bug.find(params[:id])
+    @bug.destroy
+    format_output @bug
+  end
+  
+  def create
+    @bug = Bug.new(params[:bug])
+    format_output @bug, true
+    #respond_to do |format|
+    #  if @bug.save
+    #    flash[:notice] = 'Bug was successfully created.'
+    #    format.html { redirect_to(@bug) }
+    #    format.xml  { render :xml => @bug, :status => :created, :location => @bug }
+    #  else
+    #    format.html { render :action => "new" }
+    #    format.xml  { render :xml => @bug.errors, :status => :unprocessable_entity }
+    #  end
+    #end
+  end
+  
+  def update
+    @bug = Bug.find(params[:id])
+    format_output @bug, false, true, params[:bug]
+    
+    #respond_to do |format|
+    #  if @bug.update_attributes(params[:bug])
+    #    flash[:notice] = 'Bug was successfully updated.'
+    #    format.html { redirect_to(@bug) }
+    #    format.xml  { head :ok }
+    #  else
+    #    format.html { render :action => "edit" }
+    #    format.xml  { render :xml => @bug.errors, :status => :unprocessable_entity }
+    #  end
+    #end
+  end
+  
+  private
+  def format_output(entity, new_entity=false, updated_entity=false, parameters=[])
+    changed = false
+    if new_entity && entity.save
+      flash[:notice] = 'Bug was successfully created.'
+      changed = true
+    elsif updated_entity && entity.update_attributes(parameters[:bug])
+      flash[:notice] = 'Bug was successfully updated'
+      changed = true
+    end
+    
+    respond_to do |format|
+      if entity.frozen? || (updated_entity || new_entity)
+        format.html { redirect_to(bugs_url) } if entity.frozen?
+        format.html { redirect_to(entity)} if updated_entity || new_entity
+        format.xml { head:ok }
+      elsif (new_entity || updated_entity) && !changed
+        format.html { render :action => "new"} if new_entity
+        format.html { render :action => "edit"} if updated_entity
+        format.xml  { render :xml => @bug.errors, :status => :unprocessable_entity }
+      else
+        format.html
+        format.xml { render :xml => entity }
+      end
+    end
+  end
+end
