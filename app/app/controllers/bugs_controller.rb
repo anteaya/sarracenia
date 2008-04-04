@@ -28,41 +28,21 @@ class BugsController < ApplicationController
   def create
     @bug = Bug.new(params[:bug])
     format_output @bug, true
-    #respond_to do |format|
-    #  if @bug.save
-    #    flash[:notice] = 'Bug was successfully created.'
-    #    format.html { redirect_to(@bug) }
-    #    format.xml  { render :xml => @bug, :status => :created, :location => @bug }
-    #  else
-    #    format.html { render :action => "new" }
-    #    format.xml  { render :xml => @bug.errors, :status => :unprocessable_entity }
-    #  end
-    #end
   end
   
   def update
     @bug = Bug.find(params[:id])
-    format_output @bug, false, true, params[:bug]
-    
-    #respond_to do |format|
-    #  if @bug.update_attributes(params[:bug])
-    #    flash[:notice] = 'Bug was successfully updated.'
-    #    format.html { redirect_to(@bug) }
-    #    format.xml  { head :ok }
-    #  else
-    #    format.html { render :action => "edit" }
-    #    format.xml  { render :xml => @bug.errors, :status => :unprocessable_entity }
-    #  end
-    #end
+    format_output @bug, false, true
   end
   
   private
-  def format_output(entity, new_entity=false, updated_entity=false, parameters=[])
+  def format_output(entity, new_entity=false, updated_entity=false)
+    
     changed = false
     if new_entity && entity.save
       flash[:notice] = 'Bug was successfully created.'
       changed = true
-    elsif updated_entity && entity.update_attributes(parameters[:bug])
+    elsif updated_entity && entity.update_attributes(params[:bug])
       flash[:notice] = 'Bug was successfully updated'
       changed = true
     end
