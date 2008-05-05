@@ -1,8 +1,15 @@
-<div>
-    <%= bug.title %> | <%= bug.description %> | <%= bug.severity_id %> | <%= bug.project_id %> | <%= bug.fixed %>
-    <small> <%= link_to 'More details', bug %> |
-            <%= link_to 'Edit', edit_bug_path(bug) %> |
-            <%= link_to 'Delete', bug, :confirm => 'Are you sure?', :method => :delete %>
-    </small>
-</div>
+<tr>
+    <td><%= bug.title %></td>
+    <td><%= bug.severity.name %></td>
+    <td>Srdjan</td>
+    <td><%= bug.created_at.to_s(:short) %></td>
+    <td><%= bug.updated_at.to_s(:short) %></td>
+    <td><%= bug.fixed %></td>
+    <td>
+        <small> <%= link_to 'More details', bug %> |
+                <%= link_to 'Edit', edit_bug_path(bug) %> |
+                <%= link_to 'Delete', bug, :confirm => 'Are you sure?', :method => :delete %>
+        </small>
+    </td>
+</tr>
 <hr />

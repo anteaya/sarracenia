@@ -1,3 +1,13 @@
 <h1>Listing bugs</h1>
-<%= render :partial => 'bug', :collection => @bugs %>
+<table>
+    <tr>
+        <th>Bug</th>
+        <th>Severity</th>
+        <th>Logged By</th>
+        <th>Log Dated</th>
+        <th>Last Update</th>
+        <th>Fixed?</th>
+    </tr>
+    <%= render :partial => 'bug', :collection => @bugs %>
+</table>
 <%= link_to 'New bug', new_bug_path %>
