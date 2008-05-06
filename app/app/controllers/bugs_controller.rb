@@ -1,7 +1,7 @@
 class BugsController < ApplicationController
-
+  layout "application"
   def index
-    @bugs = Bug.find(:all)
+    @bugs = Bug.find(:all, :include => [:severity], :order => "bugs.created_at DESC")
     format_output @bugs
   end
 

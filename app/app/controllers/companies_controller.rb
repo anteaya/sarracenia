@@ -1,5 +1,5 @@
 class CompaniesController < ApplicationController
-
+  layout "application"
   def index
     @companies = Company.find(:all)
     format_output @companies

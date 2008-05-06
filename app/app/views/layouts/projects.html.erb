@@ -5,13 +5,21 @@
 <head>
   <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
   <title>Projects: <%= controller.action_name %></title>
-  <%= stylesheet_link_tag 'scaffold' %>
+  <%= stylesheet_link_tag 'reset-fonts-grids' %>
+  <%= stylesheet_link_tag 'application' %>
 </head>
 <body>
-
-<p style="color: green"><%= flash[:notice] %></p>
-
-<%= yield  %>
-
+  <div id="doc3" class="yui-t4">
+    <div id="yui-main">
+      <p style="color: green"><%= flash[:notice] %></p>
+      <%= yield  %>
+    </div>
+    <div id="nav" class="yui-b">
+      <ul>
+        <li><%= link_to 'Projects', projects_path %></li>
+        <li><%= link_to 'New bug', new_bug_path %></li>
+      </ul>
+    </div>
+  </div>
 </body>
 </html>

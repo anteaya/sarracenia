@@ -1,4 +1,5 @@
 ActionController::Routing::Routes.draw do |map|
+  map.connect '', :controller => 'bugs', :action => 'index'
   map.resources :statuses
   map.resources :companies
   map.resources :projects
