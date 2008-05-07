@@ -1,3 +1,12 @@
-<h1>Listing projects</h1>
-<%= render :partial => 'project', :collection => @projects %>
-<%= link_to 'New project', new_project_path %>
+<div id="index" class="yui-b">
+  <h1>Current projects</h1>
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Created at</th>
+      <th>Last updated at</th>
+      <th></th>
+    </tr>
+    <%= render :partial => 'project', :collection => @projects %>
+  </table>
+</div>

@@ -8,12 +8,6 @@ h1 {
     font-weight: bold;
 }
 
-#index {
-    border: 1px solid #000;
-    width: 75%;
-    margin: 2%;
-}
-
 table {
     width: 98%;
     margin: 1.5%;
@@ -38,9 +32,41 @@ table th {
     background: #aaa;
 }
 
+#index, #new {
+    border: 1px solid #000;
+    width: 75%;
+    margin: 2%;
+}
+
+#back_link {
+    margin: 2%;
+}
+
 #nav {
     border: 1px solid #000;
     margin-top: 2%;
+}
+
+#new_links {
+    margin-top: 10%;
+    *margin-top: 5%;
+}
+
+.yui-u p {
+    margin-bottom: 5%;
+    margin-left: 1%;
+}
+
+.yui-u select, .yui-u input {
+    width: 15em;
+}
+
+.yui-u textarea, .yui-u input[type='text'] {
+    width: 20em;
+}
+
+.yui-u textarea {
+    height: 20em;
 }
 
 .fieldWithErrors {

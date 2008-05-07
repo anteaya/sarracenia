@@ -18,11 +18,14 @@
           <%= link_to 'Projects', projects_path %>
           <!-- add the project names here -->
         </li>
-        <li><%= link_to 'New bug', new_bug_path %></li>
         <li><a href="#">Users</a></li>
         <li><a href="#">Settings</a></li>
         <li><a href="#">Log in</a></li>
         <li><a href="#">Log out</a></li>
+      </ul>
+      <ul id="new_links">
+        <li><%= link_to 'New bug', new_bug_path %></li>
+        <li><%= link_to 'New project', new_project_path %></li>
       </ul>
     </div>
   </div>
