@@ -1,14 +1,9 @@
 class BugsController < ApplicationController
   layout "application"
   def index
-    conditions = {}
-    if params[:fixed]
-      conditions[:fixed] = true
-    else
-      conditions[:fixed] = false
-    end
-    
-    @bugs = Bug.find(:all, :include => [:severity], :conditions => conditions, :order => "bugs.created_at DESC")
+    #@bugs = Bug.find(:all, :include => [:severity], :conditions => conditions, :order => "bugs.created_at DESC")
+    @bugs = Bug.get_bugs(params[:fixed]) if params[:fixed]
+    @bugs = Bug.get_bugs() if !params[:fixed]
     format_output @bugs
   end
 
