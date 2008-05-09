@@ -1,7 +1,14 @@
 class BugsController < ApplicationController
   layout "application"
   def index
-    @bugs = Bug.find(:all, :include => [:severity], :order => "bugs.created_at DESC")
+    conditions = {}
+    if params[:fixed]
+      conditions[:fixed] = true
+    else
+      conditions[:fixed] = false
+    end
+    
+    @bugs = Bug.find(:all, :include => [:severity], :conditions => conditions, :order => "bugs.created_at DESC")
     format_output @bugs
   end
 
