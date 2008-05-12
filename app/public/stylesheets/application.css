@@ -1,6 +1,7 @@
 body {
     font-size: 105%;
     font-family: "Helvetica", "Verdana", sans-serif, serif;
+    background: url(../images/bug-flower-large.gif) no-repeat 0 0;
 }
 
 h1 {
@@ -32,6 +33,25 @@ table th {
     background: #aaa;
 }
 
+#header {
+    float: left;
+    clear: both;
+    width: 99%;
+    /*border: 1px solid #000;
+    background: url(../images/bug-flower.gif) no-repeat 0 0;*/
+}
+
+#header img, #header h1 {
+    float: left;
+    margin-left: 5%;
+}
+
+#header h1 {
+    width: 40%;
+    font-size: 200%;
+    vertical-align: sub;
+}
+
 #index, #new {
     border: 1px solid #000;
     width: 75%;
@@ -43,13 +63,19 @@ table th {
 }
 
 #nav {
-    border: 1px solid #000;
+    /*border: 1px solid #000;*/
     margin-top: 2%;
+    float: left;
+    width: 50%;
+}
+
+#nav ul li {
+    display: inline;
 }
 
 #new_links {
-    margin-top: 10%;
-    *margin-top: 5%;
+    margin-right: 10%;
+    *margin-right: 5%;
 }
 
 .yui-u p {

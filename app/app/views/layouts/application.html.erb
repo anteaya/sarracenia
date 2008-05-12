@@ -2,16 +2,14 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
   <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
-  <title>Anteater Issue Tracker</title>
+  <title>Sarracenia Issue Tracker</title>
   <%= stylesheet_link_tag 'reset-fonts-grids' %>
   <%= stylesheet_link_tag 'application' %>
 </head>
 <body>
-  <div id="doc3" class="yui-t4">
-    <div id="yui-main">
-      <p style="color: green"><%= flash[:notice] %></p>
-      <%= yield  %>
-    </div>
+  <div id="header">
+    <img src="images/bug-flower.gif" alt="sarracenia flower, i.e. bug predator" />
+    <h1>Sarracenia Issue Tracker</h1>
     <div id="nav" class="yui-b">
       <ul>
         <li><%= link_to 'Issues', bugs_path %></li>
@@ -28,6 +26,12 @@
         <li><%= link_to 'New bug', new_bug_path %></li>
         <li><%= link_to 'New project', new_project_path %></li>
       </ul>
+    </div>
+  </div>
+  <div id="doc3" class="yui-t4">
+    <div id="yui-main">
+      <p style="color: green"><%= flash[:notice] %></p>
+      <%= yield  %>
     </div>
   </div>
 </body>
