@@ -8,7 +8,8 @@
 </head>
 <body>
   <div id="header">
-    <img src="images/bug-flower.gif" alt="sarracenia flower, i.e. bug predator" />
+    <!--<img src="images/bug-flower.gif" alt="sarracenia flower, i.e. bug predator" />-->
+    <%= image_tag 'bug-flower.gif', :alt => 'sarracenia flower, i.e. bug predator' %>
     <h1>Sarracenia Issue Tracker</h1>
     <div id="nav" class="yui-b">
       <ul>
@@ -25,6 +26,7 @@
       <ul id="new_links">
         <li><%= link_to 'New bug', new_bug_path %></li>
         <li><%= link_to 'New project', new_project_path %></li>
+        <li><%= link_to 'New company', new_company_path %></li>
       </ul>
     </div>
   </div>
