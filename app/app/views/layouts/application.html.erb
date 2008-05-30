@@ -11,7 +11,7 @@
     <!--<img src="images/bug-flower.gif" alt="sarracenia flower, i.e. bug predator" />-->
     <%= image_tag 'bug-flower.gif', :alt => 'sarracenia flower, i.e. bug predator' %>
     <h1>Sarracenia Issue Tracker</h1>
-    <div id="nav" class="yui-b">
+    <div id="nav">
       <ul>
         <li><%= link_to 'Issues', bugs_path %></li>
         <li>
@@ -30,8 +30,8 @@
       </ul>
     </div>
   </div>
-  <div id="doc3" class="yui-t4">
-    <div id="yui-main">
+  <div id="content">
+    <div id="main">
       <p style="color: green"><%= flash[:notice] %></p>
       <%= yield  %>
     </div>

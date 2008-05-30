@@ -22,6 +22,7 @@ table td {
     border-left: 1px solid #000;
     border-top: 1px solid #000;
     padding: 0.5% 0.25%;
+    width: 14%;
 }
 
 table th, tr {
@@ -29,12 +30,30 @@ table th, tr {
     border-bottom: 1px solid #000;
     padding: 0.5%;
     text-align: left;
+    width: 14%;
 }
 table th {
     background: #aaa;
 }
 
-#header {
+p {
+    margin-bottom: 5%;
+    margin-left: 1%;
+}
+
+select, input {
+    width: 15em;
+}
+
+textarea, input[type='text'] {
+    width: 20em;
+}
+
+textarea {
+    height: 20em;
+}
+
+#header, #content {
     float: left;
     clear: both;
     width: 99%;
@@ -49,7 +68,7 @@ table th {
 }
 
 #header h1 {
-    width: 50%;
+    width: 60%;
     font-size: 250%;
     text-align: left;
 }
@@ -73,30 +92,13 @@ table th {
 #index, #new {
     border: 1px solid #000;
     width: 75%;
-    margin: 2%;
+    margin: 2% 2% 2% 5%;
+    float: left;
 }
 
 #back_link {
     margin: 2%;
 }
-
-.yui-u p {
-    margin-bottom: 5%;
-    margin-left: 1%;
-}
-
-.yui-u select, .yui-u input {
-    width: 15em;
-}
-
-.yui-u textarea, .yui-u input[type='text'] {
-    width: 20em;
-}
-
-.yui-u textarea {
-    height: 20em;
-}
-
 .fieldWithErrors {
   padding: 2px;
   background-color: red;

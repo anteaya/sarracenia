@@ -56,6 +56,8 @@ Rails::Initializer.run do |config|
 
   # Make Active Record use UTC-base instead of local time
   # config.active_record.default_timezone = :utc
+  require 'hodel_3000_compliant_logger'
+  config.logger = Hodel3000CompliantLogger.new(config.log_path)
 end
 require 'SelfSelect.rb'
 
