@@ -9,57 +9,58 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 11) do
+ActiveRecord::Schema.define(:version => 14) do
 
   create_table "bugs", :force => true do |t|
-    t.string   "title",              :default => "NULL"
-    t.text     "description",        :default => "NULL"
-    t.integer  "severity_id",        :default => 0
-    t.boolean  "fixed",              :default => false
+    t.string   "title"
+    t.text     "description"
+    t.integer  "severity_id"
+    t.boolean  "fixed",            :default => false
     t.datetime "date_fixed"
-    t.integer  "project_id",         :default => 0
-    t.boolean  "auto_submitted",     :default => false
-    t.integer  "team_assigned_to",   :default => 0
-    t.integer  "person_assigned_to", :default => 0
-    t.integer  "fixed_by",           :default => 0
-    t.text     "fixed_comment",      :default => "NULL"
+    t.integer  "project_id"
+    t.boolean  "auto_submitted",   :default => false
+    t.integer  "team_assigned_to"
+    t.integer  "fixed_by"
+    t.text     "fixed_comment"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.integer  "user_id"
+    t.integer  "logged_by"
   end
 
   create_table "companies", :force => true do |t|
-    t.string   "name",       :default => "NULL"
-    t.string   "address",    :default => "NULL"
-    t.string   "contact",    :default => "NULL"
-    t.string   "phone",      :default => "NULL"
-    t.string   "email",      :default => "NULL"
+    t.string   "name"
+    t.string   "address"
+    t.string   "contact"
+    t.string   "phone"
+    t.string   "email"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
   create_table "permissions", :force => true do |t|
-    t.string   "name",       :default => "NULL"
+    t.string   "name"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
   create_table "permissions_user_groups", :id => false, :force => true do |t|
-    t.integer "permission_id", :default => 0
-    t.integer "user_group_id", :default => 0
+    t.integer "permission_id"
+    t.integer "user_group_id"
   end
 
   create_table "profiles", :force => true do |t|
-    t.string   "first_name",  :default => "NULL"
-    t.string   "last_name",   :default => "NULL"
-    t.string   "email",       :default => "NULL"
-    t.integer  "updated_by",  :default => 0
-    t.boolean  "is_disabled", :default => false
+    t.string   "first_name"
+    t.string   "last_name"
+    t.string   "email"
+    t.integer  "updated_by"
+    t.boolean  "is_disabled"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
   create_table "projects", :force => true do |t|
-    t.string   "name",             :default => "NULL"
+    t.string   "name"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.integer  "company_id"
@@ -69,36 +70,38 @@ ActiveRecord::Schema.define(:version => 11) do
   end
 
   create_table "severities", :force => true do |t|
-    t.string   "name",       :default => "NULL"
+    t.string   "name"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
   create_table "statuses", :force => true do |t|
-    t.string   "name",       :default => "NULL"
+    t.string   "name"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
   create_table "user_groups", :force => true do |t|
-    t.string   "name",       :default => "NULL"
+    t.string   "name"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
 
   create_table "user_groups_users", :id => false, :force => true do |t|
-    t.integer "user_group_id", :default => 0
-    t.integer "user_id",       :default => 0
+    t.integer "user_group_id"
+    t.integer "user_id"
   end
 
   create_table "users", :force => true do |t|
-    t.string   "login",            :default => "NULL"
-    t.string   "crypted_password", :default => "NULL"
-    t.string   "salt",             :default => "NULL"
-    t.integer  "profile_id",       :default => 0
-    t.integer  "updated_by",       :default => 0
+    t.string   "login"
+    t.string   "crypted_password"
+    t.string   "salt"
+    t.integer  "profile_id"
+    t.integer  "updated_by"
     t.datetime "created_at"
     t.datetime "updated_at"
+    t.string   "name"
+    t.string   "email"
   end
 
 end

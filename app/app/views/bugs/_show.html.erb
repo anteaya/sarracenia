@@ -1,7 +1,7 @@
 <div id="bug_display">
     <h1><%= @bug.title %></h1>
     <p><%= @bug.description %></p>
-    <p>Currently assigned to: <strong><%= @bug.person_assigned_to %></strong> on the <strong><%= @bug.project.name %></strong></p>
+    <p>Currently assigned to: <strong><%= @bug.user.name %></strong> on the <strong><%= @bug.project.name %></strong></p>
     <p>This issue has <% if !@bug.fixed -%>not<% end %> been fixed</p>
     <% if @bug.fixed -%>
         <p><%= @bug.fixed_comment %></p>

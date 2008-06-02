@@ -29,6 +29,7 @@ class BugsController < ApplicationController
   
   def create
     @bug = Bug.new(params[:bug])
+    @bug.logged_by = current_user if current_user != nil
     format_output @bug, true
   end
   

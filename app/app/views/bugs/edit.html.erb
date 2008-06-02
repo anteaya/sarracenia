@@ -11,8 +11,7 @@
             <div>
                 <p><label for="severity_id">Severity:</label><br /><%= f.select 'severity_id', Severity.to_select %></p>
                 <p><label for="project_id">Project:</label><br /><%= f.select 'project_id', Project.to_select %></p>
-                <p><label for="person_assigned_to">Assigned To:</label><br /><%= options = [["Assign to..."]] + ["1", "2"]
-                                                                        select("bug", "person_assigned_to", options) %></p>
+                <p><label for="person_assigned_to">Assigned To:</label><br /><%= f.select 'user_id', User.to_select %></p>
                 <p><label for="fixed">Fixed?</label><%= f.check_box :fixed %></p>
                 <p><label for="date_fixed">Date fixed:</label><br /><%= f.text_field :date_fixed %></p>
                 <p><label for="fixed_comment">Resolution:</label><br/><%= f.text_area :fixed_comment %></p>

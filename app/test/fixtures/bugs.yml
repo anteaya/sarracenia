@@ -8,7 +8,7 @@
     severity_id: 2
     project_id: 1
     team_assigned_to: 1
-    person_assigned_to: 4
+    user_id: 4
 #
 # two:
 #   column: value

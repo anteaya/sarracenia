@@ -2,6 +2,7 @@ require 'digest/sha1'
 class User < ActiveRecord::Base
   has_and_belongs_to_many :user_groups
   belongs_to :profile
+  has_many :bugs
   
   # Virtual attributes
   attr_accessor :password

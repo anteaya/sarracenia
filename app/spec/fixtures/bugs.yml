@@ -1,7 +1,7 @@
 # Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
-one:
-    id: 1
-    name: MERT
-two:
-    id: 2
-    name: Ross-Mac
+
+# one:
+#   column: value
+#
+# two:
+#   column: value
