@@ -1,12 +1,11 @@
 # Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
 
- one:
-#   column: value
+one:
     id: 1
     title: Sizing cannot be copied as new version
     description: When IPost sizing is rejected by PCL, there is no way for the IPost Solution Manager to copy it as a new version
-    severity_id: 2
-    project_id: 1
+    severity: high
+    project: mert
     team_assigned_to: 1
     user_id: 4
 #
