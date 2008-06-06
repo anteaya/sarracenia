@@ -1,7 +1,18 @@
 <tr>
     <td><%= bug.title %></td>
     <td><%= bug.severity.name %></td>
-    <td>Srdjan</td>
+    <td><%= bug.user.name %></td>
+    <td>
+        <%
+            @user = User.find(bug.logged_by) if bug.logged_by != nil
+            if @user
+        %>
+        <%= @user. name%>
+        <%
+            end
+            @user = nil
+        %>
+    </td>
     <td><%= bug.created_at.to_s(:short) %></td>
     <td><%= bug.updated_at.to_s(:short) %></td>
     <td><%= bug.fixed %></td>

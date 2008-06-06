@@ -1,8 +1,5 @@
-<div id="index">
-    <h1>Current issues</h1>
-    <div>
-        <%= link_to 'Fixed', :fixed => 't' %> | <%= link_to 'Not Fixed', :action => 'index' %>
-    </div>
+<div id="project_display">
+    <h1><%= @project.name %></h1>
     <table>
         <tr>
             <th>Bug</th>
@@ -14,6 +11,6 @@
             <th>Fixed?</th>
             <th></th>
         </tr>
-        <%= render :partial => 'bug', :collection => @bugs %>
+        <%= render :partial => 'bugs/bug', :collection => @bugs %>
     </table>
 </div>

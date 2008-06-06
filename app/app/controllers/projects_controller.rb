@@ -4,7 +4,6 @@ class ProjectsController < ApplicationController
   # GET /projects.xml
   def index
     @projects = Project.find(:all)
-
     respond_to do |format|
       format.html # index.html.erb
       format.xml  { render :xml => @projects }
@@ -15,7 +14,7 @@ class ProjectsController < ApplicationController
   # GET /projects/1.xml
   def show
     @project = Project.find(params[:id])
-
+    @bugs = @project.bugs.get_bugs(false)
     respond_to do |format|
       format.html # show.html.erb
       format.xml  { render :xml => @project }

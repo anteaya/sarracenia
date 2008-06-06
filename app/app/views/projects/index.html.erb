@@ -1,10 +1,11 @@
-<div id="index" class="yui-b">
+<div id="index">
   <h1>Current projects</h1>
-  <table>
+  <table class="project">
     <tr>
-      <th>Name</th>
-      <th>Created at</th>
-      <th>Last updated at</th>
+      <th>Project Title</th>
+      <th># Of Issues</th>
+      <th>Created At</th>
+      <th>Last Updated At</th>
       <th></th>
     </tr>
     <%= render :partial => 'project', :collection => @projects %>

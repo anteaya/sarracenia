@@ -12,7 +12,11 @@ ActionController::Routing::Routes.draw do |map|
 
   map.resources :statuses
   map.resources :companies
-  map.resources :projects
+    
+  map.resources :projects do |project|
+      project.resources :bugs
+  end
+  
   map.resources :bugs
 
   # The priority is based upon order of creation: first created -> highest priority.

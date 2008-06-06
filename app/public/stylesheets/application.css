@@ -14,25 +14,25 @@ table {
     width: auto;
     margin: 1.5%;
     *margin: 1%;
-    border-left: 1px solid #000;
-    border-top: 1px solid #000;
+    border-left: 1px solid #593639;
+    border-top: 1px solid #593639;
 }
 
 table td {
-    border-left: 1px solid #000;
-    border-top: 1px solid #000;
+    border-left: 1px solid #593639;
+    border-top: 1px solid #593639;
     padding: 0.5% 0.25%;
-    width: 14%;
-    *border-right: 1px solid #000;
-    *border-bottom: 1px solid #000;
+    width: 10%;
+    *border-right: 1px solid #593639;
+    *border-bottom: 1px solid #593639;
 }
 
 table th, tr {
-    border-right: 1px solid #000;
-    border-bottom: 1px solid #000;
+    border-right: 1px solid #593639;
+    border-bottom: 1px solid #593639;
     padding: 0.5%;
     text-align: left;
-    width: 14%;
+    width: 10%;
 }
 table th {
     background: #aaa;
@@ -55,7 +55,12 @@ textarea {
     height: 20em;
 }
 
-#header, #content {
+
+#container {
+    
+}
+
+#header, #main {
     float: left;
     clear: both;
     width: 100%;
@@ -92,25 +97,75 @@ textarea {
 }
 
 
-#main {
+#container {
     float: left;
-    width: auto;
+    width: 73.076em;
+    margin: auto 10px;
+    *width:71.25em;
+    background: transparent;
     /*border: 1px dashed #f00;*/
 }
 
 #index, #new {
+    background: #733944;
+    color: #fff;
     border: 1px solid #000;
-    width: auto;
-    margin: 2% 2% 2% 5%;    
+    width: 80%;
+    margin: 0.5% 2% 2% 5%;    
     padding: 0;
     float: left;
     *width: 85%;
     *margin: 2% 2% 2% 3%;
 }
 
-#back_link {
-    margin: 2%;
+#index th {
+    background: #8C6868;
 }
+
+#index a, #index td a {
+    color: #fff;
+}
+
+#index a:hover, #index td a:hover {
+    background: #A63F52;
+}
+
+#index a:visited, #index td a:visited {
+    background: #444;
+    color: #aaa;
+}
+
+#new h1, #new label {
+    color: #fff;
+    background: #6b3a41;
+    float: left;
+}
+
+#new .form {
+    width: 100%;
+    float: left;
+    margin-top: 5%;
+}
+
+#new .form div {
+    float: left;
+}
+
+#new .form div.second_div {
+    float: left;
+    margin: 0 5%;
+}
+
+#back_link {
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+.project td, .project tr, .project th {
+    width: 20%;
+}
+
 .fieldWithErrors {
   padding: 2px;
   background-color: red;

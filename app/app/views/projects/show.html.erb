@@ -1,3 +1,4 @@
-<%= render :partial => 'project' %>
-<%= link_to 'Edit', edit_project_path(@project) %> |
-<%= link_to 'Back', projects_path %>
+<div id="show">
+    <%= render :partial => 'show' %>
+    <%= link_to 'Edit', edit_project_path(@project) %> | <%= link_to 'Back', projects_path %>
+</div>

@@ -1,13 +1,14 @@
+<%= link_to 'Back', bugs_path, :id => 'back_link' %>
 <div id="new">
     <h1>New bug</h1>
     <%= error_messages_for :bug %>
-    <div>
+    <div class="form">
         <% form_for(@bug) do |f| %>
             <div>
                 <p><label for="title">Title:</label><br /><%= f.text_field :title %></p>
                 <p><label for="description">Description:</label><br /><%= f.text_area :description %></p>
             </div>
-            <div>
+            <div class="second_div">
                 <p><label for="severity_id">Severity:</label><br /><%= f.select 'severity_id', Severity.to_select %></p>
                 <p><label for="project_id">Project:</label><br /><%= f.select 'project_id', Project.to_select %></p>
                 <p><label for="person_assigned_to">Assigned To:</label><br /><%= f.select 'user_id', User.to_select %></p>
@@ -16,4 +17,3 @@
         <% end %>
     </div>
 </div>
-<%= link_to 'Back', bugs_path, :id => 'back_link' %>

@@ -7,33 +7,36 @@
   <%= stylesheet_link_tag 'application' %>
 </head>
 <body>
-  <div id="header">
-    <!--<img src="images/bug-flower.gif" alt="sarracenia flower, i.e. bug predator" />-->
-    <%= image_tag 'bug-flower.gif', :alt => 'sarracenia flower, i.e. bug predator' %>
-    <h1>Sarracenia Issue Tracker</h1>
-    <div id="nav">
-      <ul>
-        <li><%= link_to 'Issues', bugs_path %></li>
-        <li>
-          <%= link_to 'Projects', projects_path %>
-          <!-- add the project names here -->
-        </li>
-        <li><%= link_to 'Users', users_path %></li>
-        <!--<li><a href="#">Settings</a></li>-->
-        <li><%= link_to 'Log in', login_path %></li>
-        <li><%= link_to 'Log out', logout_path %></li>
-      </ul>
-      <ul id="new_links">
-        <li><%= link_to 'New bug', new_bug_path %></li>
-        <li><%= link_to 'New project', new_project_path %></li>
-        <li><%= link_to 'New company', new_company_path %></li>
-      </ul>
+  <div id="container">
+    <div id="header">
+      <!--<img src="images/bug-flower.gif" alt="sarracenia flower, i.e. bug predator" />-->
+      <%= image_tag 'bug-flower.gif', :alt => 'sarracenia flower, i.e. bug predator' %>
+      <h1>Sarracenia Issue Tracker</h1>
+      <div id="nav">
+        <ul>
+          <li><%= link_to 'Issues', bugs_path %></li>
+          <li>
+            <%= link_to 'Projects', projects_path %>
+            <!-- add the project names here -->
+          </li>
+          <li><%= link_to 'Users', users_path %></li>
+          <!--<li><a href="#">Settings</a></li>-->
+          <% if !logged_in? -%>
+            <li><%= link_to 'Log in', login_path %></li>
+          <% else -%>
+            <li><%= link_to 'Log out', logout_path %></li>
+          <% end %>
+        </ul>
+        <ul id="new_links">
+          <li><%= link_to 'New bug', new_bug_path %></li>
+          <li><%= link_to 'New project', new_project_path %></li>
+          <li><%= link_to 'New company', new_company_path %></li>
+        </ul>
+      </div>
     </div>
-  </div>
-  <div id="content">
-    <div id="main">
-      <p style="color: green"><%= flash[:notice] %></p>
-      <%= yield  %>
+     <div id="main">
+        <p style="color: green"><%= flash[:notice] %></p>
+        <%= yield  %>
     </div>
   </div>
 </body>
