@@ -1,10 +1,15 @@
+<div class="links">
+    <h2><%= @bug.title %></h2>
+    <%= link_to 'Edit', edit_bug_path(@bug) %> | <%= link_to 'Back', bugs_path %>
+</div>
 <div id="bug_display">
-    <h1><%= @bug.title %></h1>
+    <h4>Description</h4>
     <p><%= @bug.description %></p>
-    <p>Currently assigned to: <strong><%= @bug.user.name %></strong> on the <strong><%= @bug.project.name %></strong></p>
-    <p>This issue has <% if !@bug.fixed -%>not<% end %> been fixed</p>
+    <h4>Status</h4>
+    <p>Currently assigned to <strong><%= @bug.user.name %></strong> on the <strong><%= @bug.project.name %></strong> |
+    This issue has <% if !@bug.fixed -%>not<% end %> been fixed</p>
     <% if @bug.fixed -%>
         <p><%= @bug.fixed_comment %></p>
     <% end %>
-    <p>Last updated: <%= @bug.updated_at.to_s(:short) %></p>
+    <small>Last updated: <%= @bug.updated_at.to_s(:short) %></small>
 </div>
