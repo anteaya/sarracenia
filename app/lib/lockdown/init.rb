@@ -9,16 +9,16 @@ Lockdown::System.configure do
   # Options with defaults:
   #
   # Set timeout to 1 hour:
-         options[:session_timeout] = (60 * 60)
+  #       options[:session_timeout] = (60 * 60)
   #
   # Set system to logout if unauthorized access is attempted:
-         options[:logout_on_access_violation] = false
+  #       options[:logout_on_access_violation] = false
   #
   # Set redirect to path on unauthorized access attempt:
-         options[:access_denied_path] = "/"
+  #       options[:access_denied_path] = "/"
   #
   # Set redirect to path on successful login:
-        options[:successful_login_path] = "/bugs"
+  #       options[:successful_login_path] = "/"
   #
   # Set the system to sync the Permissions and UserGroups defined here
   # with the database. 
@@ -61,20 +61,6 @@ Lockdown::System.configure do
   # 
   # Define your permissions here:
 
-  set_permission :sessions_management, all_methods(:sessions)
-
-  set_permission :users_management, all_methods(:users)
-
-  set_permission :user_groups_management, all_methods(:user_groups)
-
-  set_permission :permissions_management, all_methods(:permissions)
-
-  set_permission :my_account, only_methods(:users, :edit, :update, :show)
-  
-  #set_permission :admin_management, all_methods(:admins)
-
-
-
   #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   # Built-in user groups
   #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -88,10 +74,6 @@ Lockdown::System.configure do
   #    set_protected_access :my_account
   #
   # Define the built-in user groups here:
-  set_public_access :sessions_management
-
-  set_protected_access :my_account
-
 
   #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   # Define user groups
@@ -105,6 +87,5 @@ Lockdown::System.configure do
   #
   # 
   # Define your user groups here:
-  #set_user_group :admins, :users
 
 end 

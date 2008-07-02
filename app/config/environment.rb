@@ -63,3 +63,5 @@ require 'SelfSelect.rb'
 
 require "lockdown/init"
 
+
+require "lockdown/classy-inheritance"
