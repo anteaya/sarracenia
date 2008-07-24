@@ -60,7 +60,8 @@ Lockdown::System.configure do
   #  set_permission(:my_account, only_methods(:users, :edit, :update, :show))
   # 
   # Define your permissions here:
-
+  set_permission(:bugs, all_methods(:bugs))
+  set_permission(:projects, all_methods(:projects))
   #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
   # Built-in user groups
   #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
