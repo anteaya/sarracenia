@@ -1,0 +1,1002 @@
+# Logfile created on Tue Jul 29 21:37:29 -0400 2008  [4;36;1mPermission Load (0.001169)[0m   [0;1mSELECT * FROM permissions WHERE (name = 'Projects') LIMIT 1[0m
+  [4;35;1mPermission Load (0.000262)[0m   [0mSELECT * FROM permissions WHERE (name = 'Bugs') LIMIT 1[0m
+  [4;36;1mPermission Load (0.000331)[0m   [0;1mSELECT * FROM permissions [0m
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:37:47) [GET]
+  Session ID: 1043071d15a5826c0d443f2ccfa89371
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:37:47) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiADoSYWNjZXNzX3JpZ2h0c1sAOg10aGlzcGFnZSIG%0ALzoQZXhwaXJ5X3RpbWV1OglUaW1lDcIbG4C1mfGWIgpmbGFzaElDOidBY3Rp%0Ab25Db250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--2cc3767a79429e4b01c6754c89d9499bab55fe5e
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:37:47) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiADoSYWNjZXNzX3JpZ2h0c1sAOg10aGlzcGFnZSIG%0ALzoQZXhwaXJ5X3RpbWV1OglUaW1lDcIbG4B1p%2FWWIgpmbGFzaElDOidBY3Rp%0Ab25Db250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--30dc41c4dc7a66547a4f0c453046d0fa83444d34
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:37:47) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiADoSYWNjZXNzX3JpZ2h0c1sAOg10aGlzcGFnZSIG%0ALzoQZXhwaXJ5X3RpbWV1OglUaW1lDcIbG4BWR%2FaWIgpmbGFzaElDOidBY3Rp%0Ab25Db250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--25c8026f273104755eb4d9da05dd3f2f443cb053
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:37:47) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiADoSYWNjZXNzX3JpZ2h0c1sAOg10aGlzcGFnZSIG%0ALzoQZXhwaXJ5X3RpbWV1OglUaW1lDcIbG4D69%2FaWIgpmbGFzaElDOidBY3Rp%0Ab25Db250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--1bee5b3ab4271ddff1062a0b2806121b5bc3a213
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:37:47) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiADoSYWNjZXNzX3JpZ2h0c1sAOg10aGlzcGFnZSIG%0ALzoQZXhwaXJ5X3RpbWV1OglUaW1lDcIbG4CHjveWIgpmbGFzaElDOidBY3Rp%0Ab25Db250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--904fbf33232dc309cb087b94c4b9b5698f8b0c2b
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:37:47) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiADoSYWNjZXNzX3JpZ2h0c1sAOg10aGlzcGFnZSIG%0ALzoQZXhwaXJ5X3RpbWV1OglUaW1lDcIbG4BvMPiWIgpmbGFzaElDOidBY3Rp%0Ab25Db250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--91dcc492b40b1b02c3ddb4c2f236326713e8b38e
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:37:47) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiADoSYWNjZXNzX3JpZ2h0c1sAOg10aGlzcGFnZSIG%0ALzoQZXhwaXJ5X3RpbWV1OglUaW1lDcIbG4AhuviWIgpmbGFzaElDOidBY3Rp%0Ab25Db250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--8dc909209a15e3557314ecd3fbc750be94b53a64
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:37:47) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiADoSYWNjZXNzX3JpZ2h0c1sAOg10aGlzcGFnZSIG%0ALzoQZXhwaXJ5X3RpbWV1OglUaW1lDcIbG4CIP%2FmWIgpmbGFzaElDOidBY3Rp%0Ab25Db250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--c4dfab9e1ffe489a875c5925eb73620941f0fdc8
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:37:47) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiADoSYWNjZXNzX3JpZ2h0c1sAOg10aGlzcGFnZSIG%0ALzoQZXhwaXJ5X3RpbWV1OglUaW1lDcIbG4ALxPmWIgpmbGFzaElDOidBY3Rp%0Ab25Db250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--1ef7d64ad89648ca5a392b9c056dee3b6b58f8d4
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:37:47) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiADoSYWNjZXNzX3JpZ2h0c1sAOg10aGlzcGFnZSIG%0ALzoQZXhwaXJ5X3RpbWV1OglUaW1lDcIbG4D3OPqWIgpmbGFzaElDOidBY3Rp%0Ab25Db250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--0f0fef841fdfe51e8409197f11fc4e33885d8cec
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:37:47) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiADoSYWNjZXNzX3JpZ2h0c1sAOg10aGlzcGFnZSIG%0ALzoQZXhwaXJ5X3RpbWV1OglUaW1lDcIbG4Ckt%2FqWIgpmbGFzaElDOidBY3Rp%0Ab25Db250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--7f3736fe22f870c1287b80e896b88f2f6b5daa61
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:37:47) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiADoSYWNjZXNzX3JpZ2h0c1sAOg10aGlzcGFnZSIG%0ALzoQZXhwaXJ5X3RpbWV1OglUaW1lDcIbG4AqKvuWIgpmbGFzaElDOidBY3Rp%0Ab25Db250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--5f7ca9865cb8d492be395a1698904abbdc526fa4
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:37:47) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiADoSYWNjZXNzX3JpZ2h0c1sAOg10aGlzcGFnZSIG%0ALzoQZXhwaXJ5X3RpbWV1OglUaW1lDcIbG4C5u%2FuWIgpmbGFzaElDOidBY3Rp%0Ab25Db250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--1a4cbede6aa9b45626dd63cf9e3e7b5154debc35
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:37:47) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiADoSYWNjZXNzX3JpZ2h0c1sAOg10aGlzcGFnZSIG%0ALzoQZXhwaXJ5X3RpbWV1OglUaW1lDcIbG4B%2BMvyWIgpmbGFzaElDOidBY3Rp%0Ab25Db250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--041808a1614da1bb1ea494e73c6ae6e203218984
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:37:47) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiADoSYWNjZXNzX3JpZ2h0c1sAOg10aGlzcGFnZSIG%0ALzoQZXhwaXJ5X3RpbWV1OglUaW1lDcIbG4B8sfyWIgpmbGFzaElDOidBY3Rp%0Ab25Db250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--ffeec54a15f3dafcc10d6c0d9a703ed06da12913
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:37:48) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiADoSYWNjZXNzX3JpZ2h0c1sAOg10aGlzcGFnZSIG%0ALzoQZXhwaXJ5X3RpbWV1OglUaW1lDcIbG4AqDwCXIgpmbGFzaElDOidBY3Rp%0Ab25Db250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--8290fdb01a4d9cc921e5c7f6789d9aa69bf14651
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:37:48) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiADoSYWNjZXNzX3JpZ2h0c1sAOg10aGlzcGFnZSIG%0ALzoQZXhwaXJ5X3RpbWV1OglUaW1lDcIbG4DKngCXIgpmbGFzaElDOidBY3Rp%0Ab25Db250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--a46df9e75ea85f6a10621a42f7ad3ab134ffc364
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:37:48) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiADoSYWNjZXNzX3JpZ2h0c1sAOg10aGlzcGFnZSIG%0ALzoQZXhwaXJ5X3RpbWV1OglUaW1lDcIbG4AeMQGXIgpmbGFzaElDOidBY3Rp%0Ab25Db250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--a11e870de58d3aeeee24f1e0991e7d54c5395653
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:37:48) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiADoSYWNjZXNzX3JpZ2h0c1sAOg10aGlzcGFnZSIG%0ALzoQZXhwaXJ5X3RpbWV1OglUaW1lDcIbG4DXsgGXIgpmbGFzaElDOidBY3Rp%0Ab25Db250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--b5adb126c8d9ff7594c644a7aee9f3972b80a0ad
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:37:48) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiADoSYWNjZXNzX3JpZ2h0c1sAOg10aGlzcGFnZSIG%0ALzoQZXhwaXJ5X3RpbWV1OglUaW1lDcIbG4DvMQKXIgpmbGFzaElDOidBY3Rp%0Ab25Db250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--c13871970f9bc30fffbbbb7843cb7a53fd80b542
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#destroy (for 127.0.0.1 at 2008-07-29 21:39:02) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiADoSYWNjZXNzX3JpZ2h0c1sAOg10aGlzcGFnZSIG%0ALzoQZXhwaXJ5X3RpbWV1OglUaW1lDcIbG4C8tgKXIgpmbGFzaElDOidBY3Rp%0Ab25Db250cm9sbGVyOjpGbGFzaDo6Rmxhc2hIYXNoewAGOgpAdXNlZHsA--938bcb3333900f5b386097333287611b4ab4c40d
+  Parameters: {"action"=>"destroy", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:39:02) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiBi86EmFjY2Vzc19yaWdodHNbADoNdGhpc3BhZ2Ui%0ADC9sb2dvdXQ6EGV4cGlyeV90aW1ldToJVGltZQ3CGxuA1pUgnCIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--4f0d7f525bf06cb94f369c833cf3d63f28260e48
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:39:02) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAbiIinCIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--659265b3aae2d60a070f3e80cd506498d73390e6
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:39:02) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuACbcinCIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--862e7336ccab856f228bc06debcbcc14532bfda3
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:39:02) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuASjYjnCIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--6018c8f6d84dd53ffc4272881ff8d8b48fa2b97f
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:39:02) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAvrEjnCIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--d89e422f5bfeec7843be0d3bc238d951142f01d4
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:39:02) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuANDUknCIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--2082cc21b7790fa740507f4e80101d56b1532720
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:39:02) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAgrQknCIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--abb6c1772862683aa03bdaec887f3911556fe437
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:39:02) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAbCklnCIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--d45a0ad028dc27d640646dd54d6c42681179692d
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:39:02) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAiKMnnCIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--4a91bd59506bae6739a8ab581e639c7cb81dd56a
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:39:02) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAjC4onCIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--b0408025e557db727b17446d4457977e68a3a05d
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:39:02) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAHrkonCIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--a5ae049bdc99befe01040c4916b1730150459104
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:39:02) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAKTIpnCIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--e173ac41e28133cf3f90bf5ec36ff4e4b20c74f6
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:39:02) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuARb4pnCIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--851277957e215a9c040427e90cee811828b7110c
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:39:02) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuA5%2BkqnCIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--6877b1148117c1afe11074cf61ad98c643780d32
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:39:02) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAOmsrnCIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--acfdbd3c2f37c08a821c0f94318dd0a315f74a85
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:39:02) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuABeMrnCIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--f5c3ad2b4faa3fc134d310b7dd75ce0e837c66d8
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:39:02) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAa2ksnCIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--a97d5b9cbf540a7332b7c51e01792567b7e8724c
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:39:02) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAXOosnCIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--f8fb8c13294b348803b7306bcc18513483985002
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:39:02) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAQmAtnCIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--034f95e3b8c82978e8754e2b41345e7af33bd6e1
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:39:02) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAfuYtnCIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--f0e375a9c3a0b462375bdbe1c5018ca52ac8dd6a
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:39:27) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAzmYunCIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--a4cf8b6e0779a3727ecc43be22b8f3de61dbfd39
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:39:27) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAO9y8nSIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--aca55bdf103417aa0fc01d68fb82fc9479fe3ccb
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:39:27) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAxuy9nSIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--40c632d5328a853f41e8db58688c920a9c81ecd4
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:39:27) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAV2e%2BnSIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--162817602774f6f7ce1c970e3d6d223737b4dd3d
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:39:28) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAUeu%2BnSIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--cce59df29ad40978ea9dcd6007d1ae60dfbda4d9
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:39:28) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuA%2FjPAnSIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--56a08b3669a967d96995f04fcc53381c672be1c3
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:39:28) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAw7bAnSIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--acbd6886ab81a4e301f8d721d25fec4e350193a1
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:39:28) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAYDnBnSIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--db35667f47d01e02e9e491a617a2bda787484c09
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:39:28) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAzcfBnSIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--15185069586eece216d2a18ec9a0400811241c79
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:39:28) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAoz7CnSIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--338b67fb4746eaa19f69dc6b93eb40cc4ebe1cd2
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:39:28) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuA%2Fb3CnSIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--1e8f27109d4c8ecb0f7ef34406bdbcd133dd3cbc
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:39:28) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAzzPDnSIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--5061adcedfdd612936008c0ca70a412dd8349b0b
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:39:28) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAYbbDnSIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--a623627d5c8155c0ef986494e07c93a04bde04bf
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:39:28) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuACTvEnSIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--86d00984faa6d41891267a3469ee893fcc2dc8da
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:39:28) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAfr3EnSIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--09b5ec2fddf282a758b13c024ec1736fe568adab
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:39:28) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuA%2BHHHnSIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--8d8fbaf526fb58bbbf6ea8d1e4373c5163acc079
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:39:28) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAKv%2FHnSIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--b0eebaa5d9a999ed8d692dbed113719bab87d6f6
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:39:28) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAu3nInSIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--0c8e415611848c6aa3312f9f82a170eb2083b1c9
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:39:28) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuA2wPJnSIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--63823d35a5499bb7ac49e5fe591dd817769c7c70
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:39:28) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAYIzJnSIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--076165de173cd34c59988f5bef9e1f2aac6f7e9e
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:39:28) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAXwHKnSIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--2c00cf0d121b039bf0f4787952257a53cf27d476
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+  [4;36;1mPermission Load (0.001064)[0m   [0;1mSELECT * FROM permissions WHERE (name = 'Projects') LIMIT 1[0m
+  [4;35;1mPermission Load (0.000261)[0m   [0mSELECT * FROM permissions WHERE (name = 'Bugs') LIMIT 1[0m
+  [4;36;1mPermission Load (0.000340)[0m   [0;1mSELECT * FROM permissions [0m
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:40:32) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuABXjKnSIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--eef2a954ba371f07417424cc51aba14724e46934
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:40:32) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAPacIoiIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--5c4ba4894d84636081441d82dbf90d0db6adb797
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:40:32) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuA3YsMoiIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--4a6891b4948e08e06951f49140dea75017817288
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:40:32) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAi0INoiIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--ba86e2623689e018697185abb3fc9ed407c79c34
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:40:32) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAkeMNoiIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--4bd17dcdad8a6a24c4126b565e2027bccbb4c230
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:40:32) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAi6cOoiIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--ad5b628af2970075d9caadebe94d0b3371f0014e
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:40:33) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAuzYPoiIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--c157b2fd6d300de5a9d9bfe81fcc9f9e954a32fd
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:40:33) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAHnsQoiIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--0fc475779ab1c8592b676182cce9555e6ee8f4a0
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:40:33) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAkR8RoiIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--2f43e73db68a376c900242b6b63ec637e103c3cc
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:40:33) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAt7oRoiIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--b59ad2b288550db02cb3fb4e9f51863eca71c2a8
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:40:33) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAjjoSoiIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--4cc94ad424f7afb55df34df76cd7a3c4fb9d04a1
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:40:33) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAPtYSoiIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--4621f4055372b1d478a845e7e763b692c43fcc4a
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:40:33) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuA8EwToiIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--3785d6a7b5e8f2a1c280722f59f929241c642aa2
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:40:33) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAGMEToiIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--b0da196c37f7b6750bed78999c0293979c5843c0
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:40:33) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAaVMUoiIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--be4710bda31eac1958058a03b12a1db584ef3f33
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:40:33) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAusoUoiIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--f050f307c488771402d8017d5ff71a2b42ae7200
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:40:33) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAIMAXoiIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--0967a20a69c5b04097481e2cb872aee5ede0f621
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:40:33) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAq%2F8XoiIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--2021725e373b6571ffb7922213e1e6093e1f1206
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:40:33) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuA%2B0QYoiIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--c2d3d79eda6bc28fe7e06a23189cc1c455f85d5f
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:40:33) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAmHwYoiIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--e264a8522cb7bb5aab513bea50e4b8f8e211907d
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:40:33) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuATbYYoiIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--57456d11540f77fe83937ff8e25da857217445b2
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#destroy (for 127.0.0.1 at 2008-07-29 21:40:53) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAIPgYoiIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--c17d0b3426c3b26e7972e26fa6784e290ddbd37e
+  Parameters: {"action"=>"destroy", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:40:53) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiBi86EmFjY2Vzc19yaWdodHNbADoNdGhpc3BhZ2Ui%0ADC9sb2dvdXQ6EGV4cGlyeV90aW1ldToJVGltZQ3CGxuA%2FdhWoyIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--629aa8a808e428214a7bdd16239c5762f18e0d10
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:40:53) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAoIFXoyIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--ed1040c431787cb8725218a030c7fdc2e41d2577
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:40:53) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuA%2BthXoyIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--38c857d5f8d73ccc1bff3a53b144f3e102726dbe
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:40:53) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAYyVYoyIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--c92295f7dc392479dd007d49cad2de0f1eca9d1e
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:40:53) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAVYdYoyIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--2457bd6627f9060a4227529cdb4c4af6a23914ba
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:40:53) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAx95YoyIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--0c2368ffb7ec5a188efd98899e269160a32f9330
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:40:53) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAAyVZoyIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--fcc8779d9741ddcd61f50466b1a70ec105149dfb
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:40:53) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAZrNaoyIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--b897398a866e832ab6e349008ee47aa5c53c77fb
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:40:53) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAewZboyIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--47ef5cbac257fa692284775527a64e4778900f6c
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:40:53) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAUU5boyIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--2964368a13218541a8c9b12ddc73e9bf32f91708
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:40:53) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuALJdboyIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--9a7229a4bd59e9f02edc4b56e04e498d47ff95fc
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:40:53) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAQ%2FNboyIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--8f27c987f16dd131c12fcbff75d82e4c246b4a7b
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:40:53) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAzjpcoyIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--15011a5848ca881f4195e1fa3da644e532bf36f0
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:40:53) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAl4JcoyIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--eaf78fa639515a36632015567d85842e91f090d3
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:40:53) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAJtNcoyIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--e8e1bbdab1b1efea895960f92bddccaba219278e
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:40:53) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAAiNdoyIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--8acf4cbded9713f01e0715e8454c4e11da323681
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:40:53) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuA5nVdoyIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--2b5004999604bf763663a4088ee3210eb16d4b5e
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:40:53) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAh7pdoyIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--996aca11c134938e25f3f5c0a7f33cd7c0e1c96f
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:40:53) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuArP9doyIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--8c1e744086a96a940a3deae2620930d24332f614
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:40:53) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuApFheoyIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--b9f796a5c2c5e67d1c2d603399dabe879251f8e7
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+Jul 29 21:47:03 loki-s2 rails[10311]: [4;36;1mPermission Load (0.001039)[0m   [0;1mSELECT * FROM permissions WHERE (name = 'Bugs') LIMIT 1[0m
+Jul 29 21:47:03 loki-s2 rails[10311]: [4;35;1mPermission Load (0.000280)[0m   [0mSELECT * FROM permissions WHERE (name = 'Projects') LIMIT 1[0m
+Jul 29 21:47:03 loki-s2 rails[10311]: [4;36;1mPermission Load (0.000343)[0m   [0;1mSELECT * FROM permissions [0m
+Jul 29 21:47:03 loki-s2 rails[10311]: [4;35;1mSQL (0.000252)[0m   [0mselect sqlite_version(*)[0m
+Jul 29 21:47:03 loki-s2 rails[10311]: [4;36;1mSQL (0.000000)[0m   [0;1mSQLite3::SQLException: table schema_info already exists: CREATE TABLE schema_info (version integer)[0m
+Jul 29 21:47:03 loki-s2 rails[10311]: [4;35;1mSQL (0.000208)[0m   [0mSELECT version FROM schema_info[0m
+Jul 29 21:47:03 loki-s2 rails[10311]: [4;36;1mSQL (0.000173)[0m   [0;1mSELECT version FROM schema_info[0m
+Jul 29 21:47:03 loki-s2 rails[10311]: [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: table schema_info already exists: CREATE TABLE schema_info (version integer)[0m
+Jul 29 21:47:03 loki-s2 rails[10311]: [4;36;1mSQL (0.000300)[0m   [0;1mSELECT version FROM schema_info[0m
+Jul 29 21:47:03 loki-s2 rails[10311]: Migrating to AddLoggedByToBugsModel (14)
+Jul 29 21:47:03 loki-s2 rails[10311]: [4;35;1mSQL (0.001058)[0m   [0mCREATE TEMPORARY TABLE altered_bugs ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255) DEFAULT NULL, "description" text DEFAULT NULL, "severity_id" integer DEFAULT NULL, "fixed" boolean DEFAULT 'f', "date_fixed" datetime DEFAULT NULL, "project_id" integer DEFAULT NULL, "auto_submitted" boolean DEFAULT 'f', "team_assigned_to" integer DEFAULT NULL, "fixed_by" integer DEFAULT NULL, "fixed_comment" text DEFAULT NULL, "created_at" datetime DEFAULT NULL, "updated_at" datetime DEFAULT NULL, "user_id" integer DEFAULT NULL, "logged_by" integer DEFAULT NULL) [0m
+Jul 29 21:47:03 loki-s2 rails[10311]: [4;36;1mSQL (0.000065)[0m   [0;1mPRAGMA index_list(bugs)[0m
+Jul 29 21:47:03 loki-s2 rails[10311]: [4;35;1mSQL (0.000369)[0m   [0mDROP TABLE bugs[0m
+Jul 29 21:47:03 loki-s2 rails[10311]: [4;36;1mSQL (0.000492)[0m   [0;1mCREATE TABLE bugs ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255) DEFAULT NULL, "description" text DEFAULT NULL, "severity_id" integer DEFAULT NULL, "fixed" boolean DEFAULT 'f', "date_fixed" datetime DEFAULT NULL, "project_id" integer DEFAULT NULL, "auto_submitted" boolean DEFAULT 'f', "team_assigned_to" integer DEFAULT NULL, "fixed_by" integer DEFAULT NULL, "fixed_comment" text DEFAULT NULL, "created_at" datetime DEFAULT NULL, "updated_at" datetime DEFAULT NULL, "user_id" integer DEFAULT NULL) [0m
+Jul 29 21:47:03 loki-s2 rails[10311]: [4;35;1mSQL (0.000064)[0m   [0mPRAGMA index_list(altered_bugs)[0m
+Jul 29 21:47:03 loki-s2 rails[10311]: [4;36;1mSQL (0.000153)[0m   [0;1mDROP TABLE altered_bugs[0m
+Jul 29 21:47:03 loki-s2 rails[10311]: [4;35;1mSQL (0.008058)[0m   [0mUPDATE schema_info SET version = 13[0m
+Jul 29 21:47:03 loki-s2 rails[10311]: [4;36;1mSQL (0.000279)[0m   [0;1mSELECT version FROM schema_info[0m
+Jul 29 21:47:03 loki-s2 rails[10311]: Migrating to ChangeTheForeignKeyName (13)
+Jul 29 21:47:03 loki-s2 rails[10311]: [4;35;1mSQL (0.000424)[0m   [0mCREATE TEMPORARY TABLE altered_bugs ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255) DEFAULT NULL, "description" text DEFAULT NULL, "severity_id" integer DEFAULT NULL, "fixed" boolean DEFAULT 'f', "date_fixed" datetime DEFAULT NULL, "project_id" integer DEFAULT NULL, "auto_submitted" boolean DEFAULT 'f', "team_assigned_to" integer DEFAULT NULL, "fixed_by" integer DEFAULT NULL, "fixed_comment" text DEFAULT NULL, "created_at" datetime DEFAULT NULL, "updated_at" datetime DEFAULT NULL, "user_id" integer DEFAULT NULL) [0m
+Jul 29 21:47:03 loki-s2 rails[10311]: [4;36;1mSQL (0.000068)[0m   [0;1mPRAGMA index_list(bugs)[0m
+Jul 29 21:47:03 loki-s2 rails[10311]: [4;35;1mSQL (0.000345)[0m   [0mDROP TABLE bugs[0m
+Jul 29 21:47:03 loki-s2 rails[10311]: [4;36;1mSQL (0.001092)[0m   [0;1mCREATE TABLE bugs ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255) DEFAULT NULL, "description" text DEFAULT NULL, "severity_id" integer DEFAULT NULL, "fixed" boolean DEFAULT 'f', "date_fixed" datetime DEFAULT NULL, "project_id" integer DEFAULT NULL, "auto_submitted" boolean DEFAULT 'f', "team_assigned_to" integer DEFAULT NULL, "fixed_by" integer DEFAULT NULL, "fixed_comment" text DEFAULT NULL, "created_at" datetime DEFAULT NULL, "updated_at" datetime DEFAULT NULL) [0m
+Jul 29 21:47:03 loki-s2 rails[10311]: [4;35;1mSQL (0.000070)[0m   [0mPRAGMA index_list(altered_bugs)[0m
+Jul 29 21:47:03 loki-s2 rails[10311]: [4;36;1mSQL (0.000173)[0m   [0;1mDROP TABLE altered_bugs[0m
+Jul 29 21:47:03 loki-s2 rails[10311]: [4;35;1mSQL (0.003009)[0m   [0mALTER TABLE bugs ADD "person_assigned_to" integer[0m
+Jul 29 21:47:03 loki-s2 rails[10311]: [4;36;1mSQL (0.029449)[0m   [0;1mVACUUM[0m
+Jul 29 21:47:03 loki-s2 rails[10311]: [4;35;1mSQL (0.012825)[0m   [0mUPDATE schema_info SET version = 12[0m
+Jul 29 21:47:03 loki-s2 rails[10311]: [4;36;1mSQL (0.000280)[0m   [0;1mSELECT version FROM schema_info[0m
+Jul 29 21:47:03 loki-s2 rails[10311]: Migrating to AddFieldsToUser (12)
+Jul 29 21:47:03 loki-s2 rails[10311]: [4;35;1mSQL (0.000411)[0m   [0mCREATE TEMPORARY TABLE altered_users ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "login" varchar(255) DEFAULT NULL, "crypted_password" varchar(255) DEFAULT NULL, "salt" varchar(255) DEFAULT NULL, "profile_id" integer DEFAULT NULL, "updated_by" integer DEFAULT NULL, "created_at" datetime DEFAULT NULL, "updated_at" datetime DEFAULT NULL, "name" varchar(255) DEFAULT NULL, "email" varchar(255) DEFAULT NULL) [0m
+Jul 29 21:47:03 loki-s2 rails[10311]: [4;36;1mSQL (0.000066)[0m   [0;1mPRAGMA index_list(users)[0m
+Jul 29 21:47:03 loki-s2 rails[10311]: [4;35;1mSQL (0.000365)[0m   [0mDROP TABLE users[0m
+Jul 29 21:47:03 loki-s2 rails[10311]: [4;36;1mSQL (0.000372)[0m   [0;1mCREATE TABLE users ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "login" varchar(255) DEFAULT NULL, "crypted_password" varchar(255) DEFAULT NULL, "salt" varchar(255) DEFAULT NULL, "profile_id" integer DEFAULT NULL, "updated_by" integer DEFAULT NULL, "created_at" datetime DEFAULT NULL, "updated_at" datetime DEFAULT NULL, "email" varchar(255) DEFAULT NULL) [0m
+Jul 29 21:47:03 loki-s2 rails[10311]: [4;35;1mSQL (0.000065)[0m   [0mPRAGMA index_list(altered_users)[0m
+Jul 29 21:47:03 loki-s2 rails[10311]: [4;36;1mSQL (0.000152)[0m   [0;1mDROP TABLE altered_users[0m
+Jul 29 21:47:03 loki-s2 rails[10311]: [4;35;1mSQL (0.000399)[0m   [0mCREATE TEMPORARY TABLE altered_users ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "login" varchar(255) DEFAULT NULL, "crypted_password" varchar(255) DEFAULT NULL, "salt" varchar(255) DEFAULT NULL, "profile_id" integer DEFAULT NULL, "updated_by" integer DEFAULT NULL, "created_at" datetime DEFAULT NULL, "updated_at" datetime DEFAULT NULL, "email" varchar(255) DEFAULT NULL) [0m
+Jul 29 21:47:03 loki-s2 rails[10311]: [4;36;1mSQL (0.000067)[0m   [0;1mPRAGMA index_list(users)[0m
+Jul 29 21:47:03 loki-s2 rails[10311]: [4;35;1mSQL (0.000314)[0m   [0mDROP TABLE users[0m
+Jul 29 21:47:03 loki-s2 rails[10311]: [4;36;1mSQL (0.000298)[0m   [0;1mCREATE TABLE users ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "login" varchar(255) DEFAULT NULL, "crypted_password" varchar(255) DEFAULT NULL, "salt" varchar(255) DEFAULT NULL, "profile_id" integer DEFAULT NULL, "updated_by" integer DEFAULT NULL, "created_at" datetime DEFAULT NULL, "updated_at" datetime DEFAULT NULL) [0m
+Jul 29 21:47:03 loki-s2 rails[10311]: [4;35;1mSQL (0.000065)[0m   [0mPRAGMA index_list(altered_users)[0m
+Jul 29 21:47:03 loki-s2 rails[10311]: [4;36;1mSQL (0.000147)[0m   [0;1mDROP TABLE altered_users[0m
+Jul 29 21:47:03 loki-s2 rails[10311]: [4;35;1mSQL (0.003103)[0m   [0mUPDATE schema_info SET version = 11[0m
+Jul 29 21:47:03 loki-s2 rails[10311]: [4;36;1mSQL (0.000286)[0m   [0;1mSELECT version FROM schema_info[0m
+Jul 29 21:47:03 loki-s2 rails[10311]: Migrating to CreateAdminUserAndUserGroup (11)
+Jul 29 21:47:03 loki-s2 rails[10311]: [4;35;1mSQL (0.010116)[0m   [0mUPDATE schema_info SET version = 10[0m
+Jul 29 21:47:03 loki-s2 rails[10311]: [4;36;1mSQL (0.000289)[0m   [0;1mSELECT version FROM schema_info[0m
+Jul 29 21:47:03 loki-s2 rails[10311]: Migrating to CreatePermissions (10)
+Jul 29 21:47:03 loki-s2 rails[10311]: [4;35;1mSQL (0.004471)[0m   [0mDROP TABLE permissions_user_groups[0m
+Jul 29 21:47:03 loki-s2 rails[10311]: [4;36;1mSQL (0.003554)[0m   [0;1mDROP TABLE permissions[0m
+Jul 29 21:47:03 loki-s2 rails[10311]: [4;35;1mSQL (0.019317)[0m   [0mUPDATE schema_info SET version = 9[0m
+Jul 29 21:47:03 loki-s2 rails[10311]: [4;36;1mSQL (0.000270)[0m   [0;1mSELECT version FROM schema_info[0m
+Jul 29 21:47:03 loki-s2 rails[10311]: Migrating to CreateUserGroups (9)
+Jul 29 21:47:03 loki-s2 rails[10311]: [4;35;1mSQL (0.011825)[0m   [0mDROP TABLE user_groups_users[0m
+Jul 29 21:47:03 loki-s2 rails[10311]: [4;36;1mSQL (0.002958)[0m   [0;1mDROP TABLE user_groups[0m
+Jul 29 21:47:03 loki-s2 rails[10311]: [4;35;1mSQL (0.014743)[0m   [0mUPDATE schema_info SET version = 8[0m
+Jul 29 21:47:03 loki-s2 rails[10311]: [4;36;1mSQL (0.000274)[0m   [0;1mSELECT version FROM schema_info[0m
+Jul 29 21:47:03 loki-s2 rails[10311]: Migrating to CreateUsers (8)
+Jul 29 21:47:03 loki-s2 rails[10311]: [4;35;1mSQL (0.003950)[0m   [0mDROP TABLE users[0m
+Jul 29 21:47:03 loki-s2 rails[10311]: [4;36;1mSQL (0.020520)[0m   [0;1mUPDATE schema_info SET version = 7[0m
+Jul 29 21:47:03 loki-s2 rails[10311]: [4;35;1mSQL (0.000272)[0m   [0mSELECT version FROM schema_info[0m
+Jul 29 21:47:03 loki-s2 rails[10311]: Migrating to CreateProfiles (7)
+Jul 29 21:47:03 loki-s2 rails[10311]: [4;36;1mSQL (0.003236)[0m   [0;1mDROP TABLE profiles[0m
+Jul 29 21:47:03 loki-s2 rails[10311]: [4;35;1mSQL (0.002368)[0m   [0mUPDATE schema_info SET version = 6[0m
+Jul 29 21:47:03 loki-s2 rails[10311]: Reached target version: 6
+Jul 29 21:47:03 loki-s2 rails[10311]: [4;36;1mSQL (0.000285)[0m   [0;1mSELECT * FROM schema_info[0m
+Jul 29 21:47:03 loki-s2 rails[10311]: [4;35;1mSQL (0.000489)[0m   [0m SELECT name FROM sqlite_master WHERE type = 'table' AND NOT name = 'sqlite_sequence'[0m
+Jul 29 21:47:03 loki-s2 rails[10311]: [4;36;1mSQL (0.000072)[0m   [0;1mPRAGMA index_list(bugs)[0m
+Jul 29 21:47:03 loki-s2 rails[10311]: [4;35;1mSQL (0.000067)[0m   [0mPRAGMA index_list(companies)[0m
+Jul 29 21:47:03 loki-s2 rails[10311]: [4;36;1mSQL (0.000067)[0m   [0;1mPRAGMA index_list(projects)[0m
+Jul 29 21:47:03 loki-s2 rails[10311]: [4;35;1mSQL (0.000069)[0m   [0mPRAGMA index_list(severities)[0m
+Jul 29 21:47:03 loki-s2 rails[10311]: [4;36;1mSQL (0.000067)[0m   [0;1mPRAGMA index_list(statuses)[0m
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;36;1mPermission Load (0.000000)[0m   [0;1mSQLite3::SQLException: no such table: permissions: SELECT * FROM permissions WHERE (name = 'Bugs') LIMIT 1[0m
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;35;1mSQL (0.000274)[0m   [0mselect sqlite_version(*)[0m
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;36;1mSQL (0.000000)[0m   [0;1mSQLite3::SQLException: table schema_info already exists: CREATE TABLE schema_info (version integer)[0m
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: table schema_info already exists: CREATE TABLE schema_info (version integer)[0m
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;36;1mSQL (0.000301)[0m   [0;1mSELECT version FROM schema_info[0m
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;35;1mSQL (0.000182)[0m   [0mSELECT version FROM schema_info[0m
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;36;1mSQL (0.000175)[0m   [0;1mSELECT version FROM schema_info[0m
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;35;1mSQL (0.000169)[0m   [0mSELECT version FROM schema_info[0m
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;36;1mSQL (0.000175)[0m   [0;1mSELECT version FROM schema_info[0m
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;35;1mSQL (0.000169)[0m   [0mSELECT version FROM schema_info[0m
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;36;1mSQL (0.000169)[0m   [0;1mSELECT version FROM schema_info[0m
+Jul 29 21:48:05 loki-s2 rails[10336]: Migrating to CreateProfiles (7)
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;35;1mSQL (0.003598)[0m   [0mCREATE TABLE profiles ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "first_name" varchar(255) DEFAULT NULL, "last_name" varchar(255) DEFAULT NULL, "email" varchar(255) DEFAULT NULL, "updated_by" integer DEFAULT NULL, "is_disabled" boolean DEFAULT NULL, "created_at" datetime DEFAULT NULL, "updated_at" datetime DEFAULT NULL) [0m
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;36;1mProfile Load (0.000196)[0m   [0;1mSELECT * FROM profiles WHERE (LOWER(profiles.email) = 'system@a.com') LIMIT 1[0m
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;35;1mProfile Create (0.000371)[0m   [0mINSERT INTO profiles ("updated_at", "updated_by", "is_disabled", "first_name", "last_name", "created_at", "email") VALUES('2008-07-29 21:48:05', 1, NULL, 'System', 'User', '2008-07-29 21:48:05', 'system@a.com')[0m
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;36;1mSQL (0.004291)[0m   [0;1mUPDATE schema_info SET version = 7[0m
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;35;1mSQL (0.000317)[0m   [0mSELECT version FROM schema_info[0m
+Jul 29 21:48:05 loki-s2 rails[10336]: Migrating to CreateUsers (8)
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;36;1mSQL (0.002511)[0m   [0;1mCREATE TABLE users ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "login" varchar(255) DEFAULT NULL, "crypted_password" varchar(255) DEFAULT NULL, "salt" varchar(255) DEFAULT NULL, "profile_id" integer DEFAULT NULL, "updated_by" integer DEFAULT NULL, "created_at" datetime DEFAULT NULL, "updated_at" datetime DEFAULT NULL) [0m
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;35;1mSQL (0.015242)[0m   [0mUPDATE schema_info SET version = 8[0m
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;36;1mSQL (0.000266)[0m   [0;1mSELECT version FROM schema_info[0m
+Jul 29 21:48:05 loki-s2 rails[10336]: Migrating to CreateUserGroups (9)
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;35;1mSQL (0.029031)[0m   [0mCREATE TABLE user_groups ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255) DEFAULT NULL, "created_at" datetime DEFAULT NULL, "updated_at" datetime DEFAULT NULL) [0m
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;36;1mSQL (0.022013)[0m   [0;1mCREATE TABLE user_groups_users ("user_group_id" integer DEFAULT NULL, "user_id" integer DEFAULT NULL) [0m
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;35;1mSQL (0.002167)[0m   [0mUPDATE schema_info SET version = 9[0m
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;36;1mSQL (0.000267)[0m   [0;1mSELECT version FROM schema_info[0m
+Jul 29 21:48:05 loki-s2 rails[10336]: Migrating to CreatePermissions (10)
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;35;1mSQL (0.005793)[0m   [0mCREATE TABLE permissions ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255) DEFAULT NULL, "created_at" datetime DEFAULT NULL, "updated_at" datetime DEFAULT NULL) [0m
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;36;1mSQL (0.013759)[0m   [0;1mCREATE TABLE permissions_user_groups ("permission_id" integer DEFAULT NULL, "user_group_id" integer DEFAULT NULL) [0m
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;35;1mSQL (0.006522)[0m   [0mUPDATE schema_info SET version = 10[0m
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;36;1mSQL (0.000265)[0m   [0;1mSELECT version FROM schema_info[0m
+Jul 29 21:48:05 loki-s2 rails[10336]: Migrating to CreateAdminUserAndUserGroup (11)
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;35;1mProfile Load (0.000218)[0m   [0mSELECT * FROM profiles WHERE (LOWER(profiles.email) = 'administrator@a.com') LIMIT 1[0m
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;36;1mProfile Create (0.000256)[0m   [0;1mINSERT INTO profiles ("updated_at", "updated_by", "is_disabled", "first_name", "last_name", "created_at", "email") VALUES('2008-07-29 21:48:05', 1, NULL, 'Administrator', 'User', '2008-07-29 21:48:05', 'administrator@a.com')[0m
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;35;1mUser Load (0.000183)[0m   [0mSELECT * FROM users WHERE (LOWER(users.login) = 'admin') LIMIT 1[0m
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;36;1mProfile Load (0.000141)[0m   [0;1mSELECT * FROM profiles WHERE (LOWER(profiles.email) = 'administrator@a.com' AND profiles.id <> 2) LIMIT 1[0m
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;35;1mProfile Load (0.000144)[0m   [0mSELECT * FROM profiles WHERE (LOWER(profiles.email) = 'administrator@a.com' AND profiles.id <> 2) LIMIT 1[0m
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;36;1mProfile Update (0.000244)[0m   [0;1mUPDATE profiles SET "created_at" = '2008-07-29 21:48:05', "email" = 'administrator@a.com', "updated_by" = 1, "is_disabled" = NULL, "last_name" = 'User', "updated_at" = '2008-07-29 21:48:05', "first_name" = 'Administrator' WHERE "id" = 2[0m
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;35;1mUser Create (0.000254)[0m   [0mINSERT INTO users ("salt", "updated_at", "crypted_password", "updated_by", "login", "created_at", "profile_id") VALUES('9625ebf4a45b084895f55c30398224485d55b1a7', '2008-07-29 21:48:05', 'b2101f3f56fcc0a97e9c974c6386b8ca01529eed', 1, 'admin', '2008-07-29 21:48:05', 2)[0m
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;36;1mSQL (0.000980)[0m   [0;1m SELECT name FROM sqlite_master WHERE type = 'table' AND NOT name = 'sqlite_sequence'[0m
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;35;1mUserGroup Load (0.000160)[0m   [0mSELECT * FROM user_groups WHERE (user_groups."name" = 'Administrators') LIMIT 1[0m
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;36;1mUserGroup Create (0.000293)[0m   [0;1mINSERT INTO user_groups ("name", "updated_at", "created_at") VALUES('Administrators', '2008-07-29 21:48:05', '2008-07-29 21:48:05')[0m
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;35;1mSQL (0.000237)[0m   [0mINSERT INTO user_groups_users ("user_group_id", "user_id") VALUES (1, 1)[0m
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;36;1mSQL (0.003163)[0m   [0;1mUPDATE schema_info SET version = 11[0m
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;35;1mSQL (0.000273)[0m   [0mSELECT version FROM schema_info[0m
+Jul 29 21:48:05 loki-s2 rails[10336]: Migrating to AddFieldsToUser (12)
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;36;1mSQL (0.014557)[0m   [0;1mALTER TABLE users ADD "name" varchar(255)[0m
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;35;1mSQL (0.047823)[0m   [0mVACUUM[0m
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;36;1mSQL (0.090976)[0m   [0;1mALTER TABLE users ADD "email" varchar(255)[0m
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;35;1mSQL (0.028208)[0m   [0mVACUUM[0m
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;36;1mSQL (0.004674)[0m   [0;1mUPDATE schema_info SET version = 12[0m
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;35;1mSQL (0.000288)[0m   [0mSELECT version FROM schema_info[0m
+Jul 29 21:48:05 loki-s2 rails[10336]: Migrating to ChangeTheForeignKeyName (13)
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;36;1mSQL (0.000714)[0m   [0;1mCREATE TEMPORARY TABLE altered_bugs ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255) DEFAULT NULL, "description" text DEFAULT NULL, "severity_id" integer DEFAULT NULL, "fixed" boolean DEFAULT 'f', "date_fixed" datetime DEFAULT NULL, "project_id" integer DEFAULT NULL, "auto_submitted" boolean DEFAULT 'f', "team_assigned_to" integer DEFAULT NULL, "fixed_by" integer DEFAULT NULL, "fixed_comment" text DEFAULT NULL, "created_at" datetime DEFAULT NULL, "updated_at" datetime DEFAULT NULL, "person_assigned_to" integer DEFAULT NULL) [0m
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;35;1mSQL (0.000068)[0m   [0mPRAGMA index_list(bugs)[0m
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;36;1mSQL (0.000407)[0m   [0;1mDROP TABLE bugs[0m
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;35;1mSQL (0.000396)[0m   [0mCREATE TABLE bugs ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255) DEFAULT NULL, "description" text DEFAULT NULL, "severity_id" integer DEFAULT NULL, "fixed" boolean DEFAULT 'f', "date_fixed" datetime DEFAULT NULL, "project_id" integer DEFAULT NULL, "auto_submitted" boolean DEFAULT 'f', "team_assigned_to" integer DEFAULT NULL, "fixed_by" integer DEFAULT NULL, "fixed_comment" text DEFAULT NULL, "created_at" datetime DEFAULT NULL, "updated_at" datetime DEFAULT NULL) [0m
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;36;1mSQL (0.000065)[0m   [0;1mPRAGMA index_list(altered_bugs)[0m
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;35;1mSQL (0.000191)[0m   [0mDROP TABLE altered_bugs[0m
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;36;1mSQL (0.004921)[0m   [0;1mALTER TABLE bugs ADD "user_id" integer[0m
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;35;1mSQL (0.022166)[0m   [0mVACUUM[0m
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;36;1mSQL (0.026705)[0m   [0;1mUPDATE schema_info SET version = 13[0m
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;35;1mSQL (0.000283)[0m   [0mSELECT version FROM schema_info[0m
+Jul 29 21:48:05 loki-s2 rails[10336]: Migrating to AddLoggedByToBugsModel (14)
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;36;1mSQL (0.039177)[0m   [0;1mALTER TABLE bugs ADD "logged_by" integer[0m
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;35;1mSQL (0.029808)[0m   [0mVACUUM[0m
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;36;1mSQL (0.056970)[0m   [0;1mUPDATE schema_info SET version = 14[0m
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;35;1mSQL (0.000286)[0m   [0mSELECT * FROM schema_info[0m
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;36;1mSQL (0.000880)[0m   [0;1m SELECT name FROM sqlite_master WHERE type = 'table' AND NOT name = 'sqlite_sequence'[0m
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;35;1mSQL (0.000076)[0m   [0mPRAGMA index_list(bugs)[0m
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;36;1mSQL (0.000067)[0m   [0;1mPRAGMA index_list(companies)[0m
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;35;1mSQL (0.000072)[0m   [0mPRAGMA index_list(permissions)[0m
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;36;1mSQL (0.000066)[0m   [0;1mPRAGMA index_list(permissions_user_groups)[0m
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;35;1mSQL (0.000066)[0m   [0mPRAGMA index_list(profiles)[0m
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;36;1mSQL (0.000068)[0m   [0;1mPRAGMA index_list(projects)[0m
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;35;1mSQL (0.000068)[0m   [0mPRAGMA index_list(severities)[0m
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;36;1mSQL (0.000078)[0m   [0;1mPRAGMA index_list(statuses)[0m
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;35;1mSQL (0.000066)[0m   [0mPRAGMA index_list(user_groups)[0m
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;36;1mSQL (0.000066)[0m   [0;1mPRAGMA index_list(user_groups_users)[0m
+Jul 29 21:48:05 loki-s2 rails[10336]: [4;35;1mSQL (0.000067)[0m   [0mPRAGMA index_list(users)[0m
+Jul 29 21:48:16 loki-s2 rails[10342]: [4;36;1mPermission Load (0.000867)[0m   [0;1mSELECT * FROM permissions WHERE (name = 'Projects') LIMIT 1[0m
+Jul 29 21:48:16 loki-s2 rails[10342]: [4;35;1mPermission Create (0.000474)[0m   [0mINSERT INTO permissions ("name", "updated_at", "created_at") VALUES('Projects', '2008-07-29 21:48:16', '2008-07-29 21:48:16')[0m
+Jul 29 21:48:16 loki-s2 rails[10342]: [4;36;1mPermission Load (0.000188)[0m   [0;1mSELECT * FROM permissions WHERE (name = 'Bugs') LIMIT 1[0m
+Jul 29 21:48:16 loki-s2 rails[10342]: [4;35;1mPermission Create (0.000280)[0m   [0mINSERT INTO permissions ("name", "updated_at", "created_at") VALUES('Bugs', '2008-07-29 21:48:16', '2008-07-29 21:48:16')[0m
+Jul 29 21:48:16 loki-s2 rails[10342]: [4;36;1mPermission Load (0.000449)[0m   [0;1mSELECT * FROM permissions [0m
+Jul 29 21:48:28 loki-s2 rails[10342]: [4;35;1mUser Load (0.001027)[0m   [0mSELECT * FROM users [0m
+Jul 29 21:48:50 loki-s2 rails[10342]: [4;36;1mUser Load (0.001028)[0m   [0;1mSELECT * FROM users LIMIT 1[0m
+Jul 29 21:49:33 loki-s2 rails[10342]: [4;35;1mUser Load (0.000454)[0m   [0mSELECT * FROM users WHERE (LOWER(users.login) = 'admin' AND users.id <> 1) LIMIT 1[0m
+Jul 29 21:49:33 loki-s2 rails[10342]: [4;36;1mProfile Load (0.007199)[0m   [0;1mSELECT * FROM profiles WHERE (profiles."id" = 2) [0m
+Jul 29 21:49:33 loki-s2 rails[10342]: [4;35;1mProfile Load (0.000385)[0m   [0mSELECT * FROM profiles WHERE (LOWER(profiles.email) = 'administrator@a.com' AND profiles.id <> 2) LIMIT 1[0m
+Jul 29 21:49:33 loki-s2 rails[10342]: [4;36;1mProfile Load (0.000315)[0m   [0;1mSELECT * FROM profiles WHERE (LOWER(profiles.email) = 'administrator@a.com' AND profiles.id <> 2) LIMIT 1[0m
+Jul 29 21:49:33 loki-s2 rails[10342]: [4;35;1mProfile Update (0.000560)[0m   [0mUPDATE profiles SET "created_at" = '2008-07-29 21:48:05', "email" = 'administrator@a.com', "updated_by" = 1, "is_disabled" = NULL, "last_name" = 'User', "updated_at" = '2008-07-29 21:49:33', "first_name" = 'Administrator' WHERE "id" = 2[0m
+Jul 29 21:49:33 loki-s2 rails[10342]: [4;36;1mUser Update (0.000381)[0m   [0;1mUPDATE users SET "created_at" = '2008-07-29 21:48:05', "email" = 'spejic@gmail.com', "name" = 'Srdjan Pejic', "login" = 'admin', "updated_by" = 1, "profile_id" = 2, "crypted_password" = '6bb7eaf7626a350ec9aa674b3dbdf112c90c396c', "updated_at" = '2008-07-29 21:49:33', "salt" = '9625ebf4a45b084895f55c30398224485d55b1a7' WHERE "id" = 1[0m
+  [4;36;1mPermission Load (0.001115)[0m   [0;1mSELECT * FROM permissions WHERE (name = 'Projects') LIMIT 1[0m
+  [4;35;1mPermission Load (0.000269)[0m   [0mSELECT * FROM permissions WHERE (name = 'Bugs') LIMIT 1[0m
+  [4;36;1mPermission Load (0.000333)[0m   [0;1mSELECT * FROM permissions [0m
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:49:56) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAmKpeoyIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--deb1ae80073f8767bba93b518e92652941c38cc6
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:49:56) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAncCCxyIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--d21679954b0fb0abfb321a92bbc5b0c5d14b4520
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:49:56) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuA%2FmKGxyIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--360b6d83fd5c83793ace5fa0a50a1cbee7024bb4
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:49:56) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuA2AmHxyIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--99e2eda1d67dc1a66a06e11c6ba0f825e61def5d
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:49:56) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAB6aHxyIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--f0217c95714b80ba28c1560c662656a348108ac1
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:49:56) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAwj6IxyIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--640e5ef7fa44ed868c834a0ebb03ba5e00f55106
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:49:56) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuA6eCIxyIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--6f12b0f33e3c21fe761a0ab4264158b9abf8120c
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:49:56) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAsmOJxyIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--892748fb15cb863839381e47a41fe5fe8d66eb5a
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:49:56) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAf%2BCJxyIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--aed63fa6dc437a0d3cb88c99ffbd3ad4fcf040df
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:49:56) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuACnOKxyIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--8a3822934d516e0893246c61ff6c534cffde0e2f
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:49:56) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAO%2BaKxyIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--ef4f105f3f62d7d4fd242f2aedc3acb0d9b510cd
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:49:56) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuArGSLxyIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--698f08458ac4f65f27a1e8b1ad120a1d78df3956
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:49:56) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAI%2FWLxyIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--28038274369ca566b2aa94a3d5238e4ad1e0650b
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:49:56) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAPWqMxyIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--c103a73e5ceee411169f125a5dd0830ed861470e
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:49:56) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuATXGNxyIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--80f0574594a9e5517842c600274cacb50f1555ee
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:49:57) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAYA2OxyIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--0155618ec13d72382b3b2aa9ed0e0399d6d1394b
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:49:57) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuATDaRxyIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--0b7359cd9e6d436fce19c2e2101205df4dc3a55e
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:49:57) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAxxGSxyIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--e08f450638ef3c13ce57ba9340bd667c0a30d71c
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:49:57) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAo5CSxyIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--3f6e15d8c795981bd860f36a52defa469114b904
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:49:57) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAkiuTxyIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--65ec4d9811aea5937df85bea3a6a4ce8e037137e
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+
+
+Processing SessionsController#new (for 127.0.0.1 at 2008-07-29 21:49:57) [GET]
+  Session ID: BAh7CjoNcHJldnBhZ2UiDC9sb2dvdXQ6EmFjY2Vzc19yaWdodHNbADoNdGhp%0Ac3BhZ2UiBi86EGV4cGlyeV90aW1ldToJVGltZQ3CGxuAK66TxyIKZmxhc2hJ%0AQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNoSGFzaHsABjoKQHVz%0AZWR7AA%3D%3D--9f4d3b0b2b687f045431cd6c2d8fae54eeec0ef3
+  Parameters: {"action"=>"new", "controller"=>"sessions"}
+Redirected to http://localhost:3000/
+Jul 29 22:01:12 loki-s2 rails[6496]: [4;36;1mPermission Load (0.001344)[0m   [0;1mSELECT * FROM permissions WHERE (name = 'Bugs') LIMIT 1[0m
+Jul 29 22:01:12 loki-s2 rails[6496]: [4;35;1mPermission Load (0.000390)[0m   [0mSELECT * FROM permissions WHERE (name = 'Projects') LIMIT 1[0m
+Jul 29 22:01:12 loki-s2 rails[6496]: [4;36;1mPermission Load (0.000359)[0m   [0;1mSELECT * FROM permissions [0m
+Jul 29 22:01:12 loki-s2 rails[6496]: [4;35;1mSQL (0.000261)[0m   [0mselect sqlite_version(*)[0m
+Jul 29 22:01:12 loki-s2 rails[6496]: [4;36;1mSQL (0.000000)[0m   [0;1mSQLite3::SQLException: table schema_info already exists: CREATE TABLE schema_info (version integer)[0m
+Jul 29 22:01:12 loki-s2 rails[6496]: [4;35;1mSQL (0.000257)[0m   [0mSELECT version FROM schema_info[0m
+Jul 29 22:01:12 loki-s2 rails[6496]: [4;36;1mSQL (0.000183)[0m   [0;1mSELECT version FROM schema_info[0m
+Jul 29 22:01:12 loki-s2 rails[6496]: [4;35;1mSQL (0.000000)[0m   [0mSQLite3::SQLException: table schema_info already exists: CREATE TABLE schema_info (version integer)[0m
+Jul 29 22:01:12 loki-s2 rails[6496]: [4;36;1mSQL (0.000308)[0m   [0;1mSELECT version FROM schema_info[0m
+Jul 29 22:01:12 loki-s2 rails[6496]: Migrating to AddLoggedByToBugsModel (14)
+Jul 29 22:01:12 loki-s2 rails[6496]: [4;35;1mSQL (0.000960)[0m   [0mCREATE TEMPORARY TABLE altered_bugs ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255) DEFAULT NULL, "description" text DEFAULT NULL, "severity_id" integer DEFAULT NULL, "fixed" boolean DEFAULT 'f', "date_fixed" datetime DEFAULT NULL, "project_id" integer DEFAULT NULL, "auto_submitted" boolean DEFAULT 'f', "team_assigned_to" integer DEFAULT NULL, "fixed_by" integer DEFAULT NULL, "fixed_comment" text DEFAULT NULL, "created_at" datetime DEFAULT NULL, "updated_at" datetime DEFAULT NULL, "user_id" integer DEFAULT NULL, "logged_by" integer DEFAULT NULL) [0m
+Jul 29 22:01:12 loki-s2 rails[6496]: [4;36;1mSQL (0.000066)[0m   [0;1mPRAGMA index_list(bugs)[0m
+Jul 29 22:01:12 loki-s2 rails[6496]: [4;35;1mSQL (0.000423)[0m   [0mDROP TABLE bugs[0m
+Jul 29 22:01:12 loki-s2 rails[6496]: [4;36;1mSQL (0.000384)[0m   [0;1mCREATE TABLE bugs ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255) DEFAULT NULL, "description" text DEFAULT NULL, "severity_id" integer DEFAULT NULL, "fixed" boolean DEFAULT 'f', "date_fixed" datetime DEFAULT NULL, "project_id" integer DEFAULT NULL, "auto_submitted" boolean DEFAULT 'f', "team_assigned_to" integer DEFAULT NULL, "fixed_by" integer DEFAULT NULL, "fixed_comment" text DEFAULT NULL, "created_at" datetime DEFAULT NULL, "updated_at" datetime DEFAULT NULL, "user_id" integer DEFAULT NULL) [0m
+Jul 29 22:01:12 loki-s2 rails[6496]: [4;35;1mSQL (0.000069)[0m   [0mPRAGMA index_list(altered_bugs)[0m
+Jul 29 22:01:12 loki-s2 rails[6496]: [4;36;1mSQL (0.000163)[0m   [0;1mDROP TABLE altered_bugs[0m
+Jul 29 22:01:12 loki-s2 rails[6496]: [4;35;1mSQL (0.003981)[0m   [0mUPDATE schema_info SET version = 13[0m
+Jul 29 22:01:12 loki-s2 rails[6496]: [4;36;1mSQL (0.000284)[0m   [0;1mSELECT version FROM schema_info[0m
+Jul 29 22:01:12 loki-s2 rails[6496]: Migrating to ChangeTheForeignKeyName (13)
+Jul 29 22:01:12 loki-s2 rails[6496]: [4;35;1mSQL (0.000456)[0m   [0mCREATE TEMPORARY TABLE altered_bugs ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255) DEFAULT NULL, "description" text DEFAULT NULL, "severity_id" integer DEFAULT NULL, "fixed" boolean DEFAULT 'f', "date_fixed" datetime DEFAULT NULL, "project_id" integer DEFAULT NULL, "auto_submitted" boolean DEFAULT 'f', "team_assigned_to" integer DEFAULT NULL, "fixed_by" integer DEFAULT NULL, "fixed_comment" text DEFAULT NULL, "created_at" datetime DEFAULT NULL, "updated_at" datetime DEFAULT NULL, "user_id" integer DEFAULT NULL) [0m
+Jul 29 22:01:12 loki-s2 rails[6496]: [4;36;1mSQL (0.000072)[0m   [0;1mPRAGMA index_list(bugs)[0m
+Jul 29 22:01:12 loki-s2 rails[6496]: [4;35;1mSQL (0.000400)[0m   [0mDROP TABLE bugs[0m
+Jul 29 22:01:12 loki-s2 rails[6496]: [4;36;1mSQL (0.000493)[0m   [0;1mCREATE TABLE bugs ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255) DEFAULT NULL, "description" text DEFAULT NULL, "severity_id" integer DEFAULT NULL, "fixed" boolean DEFAULT 'f', "date_fixed" datetime DEFAULT NULL, "project_id" integer DEFAULT NULL, "auto_submitted" boolean DEFAULT 'f', "team_assigned_to" integer DEFAULT NULL, "fixed_by" integer DEFAULT NULL, "fixed_comment" text DEFAULT NULL, "created_at" datetime DEFAULT NULL, "updated_at" datetime DEFAULT NULL) [0m
+Jul 29 22:01:12 loki-s2 rails[6496]: [4;35;1mSQL (0.000072)[0m   [0mPRAGMA index_list(altered_bugs)[0m
+Jul 29 22:01:12 loki-s2 rails[6496]: [4;36;1mSQL (0.000167)[0m   [0;1mDROP TABLE altered_bugs[0m
+Jul 29 22:01:12 loki-s2 rails[6496]: [4;35;1mSQL (0.007828)[0m   [0mALTER TABLE bugs ADD "person_assigned_to" integer[0m
+Jul 29 22:01:12 loki-s2 rails[6496]: [4;36;1mSQL (0.019828)[0m   [0;1mVACUUM[0m
+Jul 29 22:01:12 loki-s2 rails[6496]: [4;35;1mSQL (0.005202)[0m   [0mUPDATE schema_info SET version = 12[0m
+Jul 29 22:01:12 loki-s2 rails[6496]: [4;36;1mSQL (0.000290)[0m   [0;1mSELECT version FROM schema_info[0m
+Jul 29 22:01:12 loki-s2 rails[6496]: Migrating to AddFieldsToUser (12)
+Jul 29 22:01:12 loki-s2 rails[6496]: [4;35;1mSQL (0.001030)[0m   [0mCREATE TEMPORARY TABLE altered_users ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "login" varchar(255) DEFAULT NULL, "crypted_password" varchar(255) DEFAULT NULL, "salt" varchar(255) DEFAULT NULL, "profile_id" integer DEFAULT NULL, "updated_by" integer DEFAULT NULL, "created_at" datetime DEFAULT NULL, "updated_at" datetime DEFAULT NULL, "name" varchar(255) DEFAULT NULL, "email" varchar(255) DEFAULT NULL) [0m
+Jul 29 22:01:12 loki-s2 rails[6496]: [4;36;1mSQL (0.000081)[0m   [0;1mPRAGMA index_list(users)[0m
+Jul 29 22:01:12 loki-s2 rails[6496]: [4;35;1mSQL (0.000310)[0m   [0mDROP TABLE users[0m
+Jul 29 22:01:12 loki-s2 rails[6496]: [4;36;1mSQL (0.000441)[0m   [0;1mCREATE TABLE users ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "login" varchar(255) DEFAULT NULL, "crypted_password" varchar(255) DEFAULT NULL, "salt" varchar(255) DEFAULT NULL, "profile_id" integer DEFAULT NULL, "updated_by" integer DEFAULT NULL, "created_at" datetime DEFAULT NULL, "updated_at" datetime DEFAULT NULL, "email" varchar(255) DEFAULT NULL) [0m
+Jul 29 22:01:12 loki-s2 rails[6496]: [4;35;1mSQL (0.000070)[0m   [0mPRAGMA index_list(altered_users)[0m
+Jul 29 22:01:12 loki-s2 rails[6496]: [4;36;1mSQL (0.000164)[0m   [0;1mDROP TABLE altered_users[0m
+Jul 29 22:01:12 loki-s2 rails[6496]: [4;35;1mSQL (0.000438)[0m   [0mCREATE TEMPORARY TABLE altered_users ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "login" varchar(255) DEFAULT NULL, "crypted_password" varchar(255) DEFAULT NULL, "salt" varchar(255) DEFAULT NULL, "profile_id" integer DEFAULT NULL, "updated_by" integer DEFAULT NULL, "created_at" datetime DEFAULT NULL, "updated_at" datetime DEFAULT NULL, "email" varchar(255) DEFAULT NULL) [0m
+Jul 29 22:01:12 loki-s2 rails[6496]: [4;36;1mSQL (0.000071)[0m   [0;1mPRAGMA index_list(users)[0m
+Jul 29 22:01:12 loki-s2 rails[6496]: [4;35;1mSQL (0.000316)[0m   [0mDROP TABLE users[0m
+Jul 29 22:01:12 loki-s2 rails[6496]: [4;36;1mSQL (0.000300)[0m   [0;1mCREATE TABLE users ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "login" varchar(255) DEFAULT NULL, "crypted_password" varchar(255) DEFAULT NULL, "salt" varchar(255) DEFAULT NULL, "profile_id" integer DEFAULT NULL, "updated_by" integer DEFAULT NULL, "created_at" datetime DEFAULT NULL, "updated_at" datetime DEFAULT NULL) [0m
+Jul 29 22:01:12 loki-s2 rails[6496]: [4;35;1mSQL (0.000066)[0m   [0mPRAGMA index_list(altered_users)[0m
+Jul 29 22:01:12 loki-s2 rails[6496]: [4;36;1mSQL (0.000160)[0m   [0;1mDROP TABLE altered_users[0m
+Jul 29 22:01:12 loki-s2 rails[6496]: [4;35;1mSQL (0.002696)[0m   [0mUPDATE schema_info SET version = 11[0m
+Jul 29 22:01:12 loki-s2 rails[6496]: [4;36;1mSQL (0.000283)[0m   [0;1mSELECT version FROM schema_info[0m
+Jul 29 22:01:12 loki-s2 rails[6496]: Migrating to CreateAdminUserAndUserGroup (11)
+Jul 29 22:01:12 loki-s2 rails[6496]: [4;35;1mSQL (0.003516)[0m   [0mUPDATE schema_info SET version = 10[0m
+Jul 29 22:01:12 loki-s2 rails[6496]: [4;36;1mSQL (0.000282)[0m   [0;1mSELECT version FROM schema_info[0m
+Jul 29 22:01:12 loki-s2 rails[6496]: Migrating to CreatePermissions (10)
+Jul 29 22:01:12 loki-s2 rails[6496]: [4;35;1mSQL (0.005712)[0m   [0mDROP TABLE permissions_user_groups[0m
+Jul 29 22:01:12 loki-s2 rails[6496]: [4;36;1mSQL (0.009135)[0m   [0;1mDROP TABLE permissions[0m
+Jul 29 22:01:12 loki-s2 rails[6496]: [4;35;1mSQL (0.020271)[0m   [0mUPDATE schema_info SET version = 9[0m
+Jul 29 22:01:12 loki-s2 rails[6496]: [4;36;1mSQL (0.000284)[0m   [0;1mSELECT version FROM schema_info[0m
+Jul 29 22:01:12 loki-s2 rails[6496]: Migrating to CreateUserGroups (9)
+Jul 29 22:01:12 loki-s2 rails[6496]: [4;35;1mSQL (0.002174)[0m   [0mDROP TABLE user_groups_users[0m
+Jul 29 22:01:12 loki-s2 rails[6496]: [4;36;1mSQL (0.003555)[0m   [0;1mDROP TABLE user_groups[0m
+Jul 29 22:01:12 loki-s2 rails[6496]: [4;35;1mSQL (0.036763)[0m   [0mUPDATE schema_info SET version = 8[0m
+Jul 29 22:01:12 loki-s2 rails[6496]: [4;36;1mSQL (0.000290)[0m   [0;1mSELECT version FROM schema_info[0m
+Jul 29 22:01:12 loki-s2 rails[6496]: Migrating to CreateUsers (8)
+Jul 29 22:01:12 loki-s2 rails[6496]: [4;35;1mSQL (0.030808)[0m   [0mDROP TABLE users[0m
+Jul 29 22:01:12 loki-s2 rails[6496]: [4;36;1mSQL (0.034860)[0m   [0;1mUPDATE schema_info SET version = 7[0m
+Jul 29 22:01:12 loki-s2 rails[6496]: [4;35;1mSQL (0.000295)[0m   [0mSELECT version FROM schema_info[0m
+Jul 29 22:01:12 loki-s2 rails[6496]: Migrating to CreateProfiles (7)
+Jul 29 22:01:12 loki-s2 rails[6496]: [4;36;1mSQL (0.002974)[0m   [0;1mDROP TABLE profiles[0m
+Jul 29 22:01:12 loki-s2 rails[6496]: [4;35;1mSQL (0.003235)[0m   [0mUPDATE schema_info SET version = 6[0m
+Jul 29 22:01:12 loki-s2 rails[6496]: Reached target version: 6
+Jul 29 22:01:12 loki-s2 rails[6496]: [4;36;1mSQL (0.000289)[0m   [0;1mSELECT * FROM schema_info[0m
+Jul 29 22:01:12 loki-s2 rails[6496]: [4;35;1mSQL (0.000516)[0m   [0m SELECT name FROM sqlite_master WHERE type = 'table' AND NOT name = 'sqlite_sequence'[0m
+Jul 29 22:01:12 loki-s2 rails[6496]: [4;36;1mSQL (0.000150)[0m   [0;1mPRAGMA index_list(bugs)[0m
+Jul 29 22:01:12 loki-s2 rails[6496]: [4;35;1mSQL (0.000067)[0m   [0mPRAGMA index_list(companies)[0m
+Jul 29 22:01:12 loki-s2 rails[6496]: [4;36;1mSQL (0.000066)[0m   [0;1mPRAGMA index_list(projects)[0m
+Jul 29 22:01:12 loki-s2 rails[6496]: [4;35;1mSQL (0.000065)[0m   [0mPRAGMA index_list(severities)[0m
+Jul 29 22:01:12 loki-s2 rails[6496]: [4;36;1mSQL (0.000066)[0m   [0;1mPRAGMA index_list(statuses)[0m
