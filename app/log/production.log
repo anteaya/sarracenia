@@ -168,3 +168,5 @@ Jul 29 21:47:46 loki-s2 rails[10328]: [4;36;1mSQL (0.000070)[0m   [0;1mPRAGMA
 Jul 29 21:47:46 loki-s2 rails[10328]: [4;35;1mSQL (0.000068)[0m   [0mPRAGMA index_list(user_groups)[0m
 Jul 29 21:47:46 loki-s2 rails[10328]: [4;36;1mSQL (0.000068)[0m   [0;1mPRAGMA index_list(user_groups_users)[0m
 Jul 29 21:47:46 loki-s2 rails[10328]: [4;35;1mSQL (0.000067)[0m   [0mPRAGMA index_list(users)[0m
+Jul 29 22:55:05 loki-s2 rails[7955]: [4;36;1mSQL (0.001635)[0m   [0;1m SELECT name FROM sqlite_master WHERE type = 'table' AND NOT name = 'sqlite_sequence'[0m
+Jul 30 00:13:20 loki-s2 rails[8739]: [4;36;1mSQL (0.001631)[0m   [0;1m SELECT name FROM sqlite_master WHERE type = 'table' AND NOT name = 'sqlite_sequence'[0m

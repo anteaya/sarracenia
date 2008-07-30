@@ -1,5 +1,5 @@
 # This file is auto-generated from the current state of the database. Instead of editing this file, 
-# please use the migrations feature of ActiveRecord to incrementally modify your database, and
+# please use the migrations feature of Active Record to incrementally modify your database, and
 # then regenerate this schema definition.
 #
 # Note that this schema.rb definition is the authoritative source for your database schema. If you need
@@ -9,22 +9,23 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 6) do
+ActiveRecord::Schema.define(:version => 20080730035340) do
 
   create_table "bugs", :force => true do |t|
     t.string   "title"
     t.text     "description"
     t.integer  "severity_id"
-    t.boolean  "fixed",              :default => false
+    t.boolean  "fixed",            :default => false
     t.datetime "date_fixed"
     t.integer  "project_id"
-    t.boolean  "auto_submitted",     :default => false
+    t.boolean  "auto_submitted",   :default => false
     t.integer  "team_assigned_to"
     t.integer  "fixed_by"
     t.text     "fixed_comment"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.integer  "person_assigned_to"
+    t.integer  "user_id"
+    t.integer  "logged_by"
   end
 
   create_table "companies", :force => true do |t|
@@ -33,6 +34,35 @@ ActiveRecord::Schema.define(:version => 6) do
     t.string   "contact"
     t.string   "phone"
     t.string   "email"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "permissions", :force => true do |t|
+    t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "permissions_user_groups", :id => false, :force => true do |t|
+    t.integer "permission_id"
+    t.integer "user_group_id"
+  end
+
+  create_table "profiles", :force => true do |t|
+    t.string   "first_name"
+    t.string   "last_name"
+    t.string   "email"
+    t.integer  "updated_by"
+    t.boolean  "is_disabled"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "project_subscriptions", :force => true do |t|
+    t.integer  "user_id"
+    t.integer  "project_id"
+    t.boolean  "subscribed", :default => false
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -57,6 +87,28 @@ ActiveRecord::Schema.define(:version => 6) do
     t.string   "name"
     t.datetime "created_at"
     t.datetime "updated_at"
+  end
+
+  create_table "user_groups", :force => true do |t|
+    t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "user_groups_users", :id => false, :force => true do |t|
+    t.integer "user_group_id"
+    t.integer "user_id"
+  end
+
+  create_table "users", :force => true do |t|
+    t.string   "login"
+    t.string   "crypted_password"
+    t.string   "salt"
+    t.integer  "profile_id"
+    t.integer  "updated_by"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+    t.string   "name"
   end
 
 end

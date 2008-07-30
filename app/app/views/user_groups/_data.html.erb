@@ -1,0 +1,68 @@
+<!-- 
+take the style block out.  this is duplicated in users/_data.html.erb
+without this, the user group selection is just no good
+-->
+<style>
+.checklist{
+  overflow: auto;
+  border: 1px solid #ccc;
+  list-style: none;
+  height: 300px;
+  height: 600px;
+  text-align: left;
+  list-style: none;
+  margin-left: 12px;
+}
+
+.checklist li{
+  padding-left: 6px;
+}
+
+li.even_checked,
+li.even{
+  background: #DFDFDF;
+}
+
+li.even_checked,
+li.odd_checked{
+  color: red;
+}
+</style>
+
+<p>
+  <b>Name</b><br />
+  <%= user_group_name_value %>
+</p>
+<p>
+  <b>Permissions</b><br />
+  <%= user_group_permissions_value %>
+</p>
+<% if action_name == "show" %>
+	<p>
+		<b>Users in user group:</b><br />
+		<%= user_group_users_value  %>
+	</p>
+<% end%>
+
+<!--
+Take this out and place in your application.js.  
+This is duplicated in users/_data.html.erb
+-->
+<script type="text/javascript">
+
+  function do_highlight(id){
+    li = document.getElementById("li_"+id);
+    i = document.getElementById(id);
+    if (i.checked){
+      li.style.backgroundColor = "#ddd";
+      li.style.color = "#fff";
+    }else{
+      if (li.className == "odd"){
+        li.style.backgroundColor = "#fff";
+      }else{
+        li.style.backgroundColor = "#ccc";
+      } 
+      li.style.color = "#000";
+    }
+  }
+</script>
