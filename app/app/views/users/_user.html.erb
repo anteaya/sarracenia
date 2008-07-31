@@ -1,0 +1,16 @@
+<tr>
+    <td><%=h user.login %></td>
+    <td><%=h user.full_name %></td>
+    <td>
+      <%- user.user_groups.map do |ug| %>
+        <%=h ug.name + "|" %>
+      <%- end %>
+    </td>
+    <td>
+        <small>
+            <%= link_to 'Show', user_path(user) %> |
+            <%= link_to 'Edit', edit_user_path(user) %> |
+            <%= link_to 'Destroy', user_path(user), :confirm => 'Are you sure?', :method => :delete %>
+        </small>
+    </td>
+</tr>

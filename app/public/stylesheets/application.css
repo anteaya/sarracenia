@@ -107,7 +107,7 @@ textarea {
     /*border: 1px dashed #f00;*/
 }
 
-#index, #new {
+#index, #new, .index {
     background: #733944;
     color: #fff;
     border: 1px solid #000;
@@ -119,19 +119,19 @@ textarea {
     *margin: 2% 2% 2% 3%;
 }
 
-#index th {
+#index th, .index th {
     background: #8C6868;
 }
 
-#index a, #index td a {
+#index a, #index td a, .index a, .index td a {
     color: #fff;
 }
 
-#index a:hover, #index td a:hover {
+#index a:hover, #index td a:hover, .index a:hover, .index td a:hover {
     background: #A63F52;
 }
 
-#index a:visited, #index td a:visited {
+#index a:visited, #index td a:visited, .index a:visited, .index td a:visited {
     background: #444;
     color: #aaa;
 }

@@ -1,28 +1,15 @@
-<h1>Listing Users</h1>
-
-<table>
-  <tr>
-    <th>Login</th>
-    <th>Name</th>
-    <th>User Group(s)</th>
-  </tr>
-
-<% @users.each do |user| %>
-  <tr>
-    <td><%=h user.login %></td>
-    <td><%=h user.full_name %></td>
-    <td>
-      <%- user.user_groups.map do |ug| %>
-        <%=h ug.name + "|" %>
-      <%- end %>
-    </td>
-    <td><%= link_to 'Show', user_path(user) %></td>
-    <td><%= link_to 'Edit', edit_user_path(user) %></td>
-    <td><%= link_to 'Destroy', user_path(user), :confirm => 'Are you sure?', :method => :delete %></td>
-  </tr>
-<% end %>
-</table>
-
-<br />
-
-<%= link_to 'New User', new_user_path %>
+<div class="index">
+  <h1>Currently added users</h1>
+  
+  <table>
+    <tr>
+      <th>Login</th>
+      <th>Name</th>
+      <th>User Group(s)</th>
+      <th></th>
+    </tr>
+    <%= render :partial => 'user', :collection => @users %>
+  </table>
+  <br />
+  <%= link_to 'New User', new_user_path %>
+</div>
