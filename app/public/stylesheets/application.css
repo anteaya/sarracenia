@@ -168,9 +168,9 @@ textarea {
 }
 
 
-#show .links {
+#show .links, #edit .links {
     float: left;
-    margin: 0;
+    margin: 0 1% 0 0;
     padding: 0;
 }
 
@@ -182,7 +182,7 @@ textarea {
     padding: 0;
 }
 
-#show h2 {
+#show h2, #edit h2 {
     font-size: 118%;
     font-weight: bold;
     margin-bottom: 2em;
@@ -204,6 +204,20 @@ textarea {
     float: left;
     font-variant: small-caps;
     font-style: italic;
+}
+
+#edit_form #top, #edit_form #bottom {
+    float: left;
+    border-left: 1px dashed #000;
+    padding-left: 2% ;
+}
+
+#edit_form #top {
+    margin-right: 1%;
+}
+
+#edit_form label {
+    
 }
 
 .fieldWithErrors {
@@ -241,3 +255,7 @@ textarea {
   font-size: 12px;
   list-style: square;
 }
+
+.High { background: #d35820;}
+.Critical { background: #c01919;}
+.Low { background: #82c019;}
