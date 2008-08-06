@@ -255,3 +255,19 @@ textarea {
   font-size: 12px;
   list-style: square;
 }
+
+.Critical {
+  background-color: #C01919;
+}
+
+.High {
+  background-color: #D35820;
+}
+
+.Medium {
+  background-color: #F4D519;
+}
+
+.Low {
+  background-color: #82C019;
+}
