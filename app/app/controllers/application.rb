@@ -13,4 +13,8 @@ class ApplicationController < ActionController::Base
     rescue ActionController::RedirectBackError
     redirect_to path
   end
+  
+  def logged_in?
+    @current_user.nil?
+  end
 end

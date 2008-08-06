@@ -2,7 +2,9 @@ class UsersController < ApplicationController
   # Be sure to include AuthenticationSystem in Application Controller instead
   include AuthenticatedSystem
   
-
+  def index
+          @users = User.find(:all)
+  end
   # render new.rhtml
   def new
     @user = User.new

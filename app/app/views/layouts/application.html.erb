@@ -21,11 +21,7 @@
           </li>
           <li><%= link_to 'Users', users_path %></li>
           <!--<li><a href="#">Settings</a></li>-->
-          <% if !logged_in? -%>
-            <li><%= link_to 'Log in', login_path %></li>
-          <% else -%>
-            <li><%= link_to 'Log out', logout_path %></li>
-          <% end %>
+          <%= render :partial => 'users/user_bar', :locals => { :logged_in => @logged_in } %>
         </ul>
         <ul id="new_links">
           <li><%= link_to 'New bug', new_bug_path %></li>

@@ -38,6 +38,7 @@ class BugsController < ApplicationController
     format_output @bug, false, true
   end
   
+  
   private
   def format_output(entity, new_entity=false, updated_entity=false)
     

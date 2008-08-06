@@ -4,6 +4,8 @@ class ProjectsController < ApplicationController
   # GET /projects.xml
   def index
     @projects = Project.find(:all)
+    @logged_in = logged_in?
+    
     respond_to do |format|
       format.html # index.html.erb
       format.xml  { render :xml => @projects }
