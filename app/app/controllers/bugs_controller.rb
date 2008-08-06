@@ -1,9 +1,10 @@
 class BugsController < ApplicationController
   layout "application"
+  before_filter :find_user
   def index
     #@bugs = Bug.find(:all, :include => [:severity], :conditions => conditions, :order => "bugs.created_at DESC")
     fixed = params[:fixed] || false
-    @bugs = Bug.get_bugs(fixed)
+    @bugs = Bug.get_bugs(@user, fixed)
     format_output @bugs
   end
 
@@ -38,6 +39,10 @@ class BugsController < ApplicationController
     format_output @bug, false, true
   end
   
+  protected
+  def find_user
+    @user = current_user || nil
+  end
   
   private
   def format_output(entity, new_entity=false, updated_entity=false)

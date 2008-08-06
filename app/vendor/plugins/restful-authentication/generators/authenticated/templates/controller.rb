@@ -1,5 +1,5 @@
 # This controller handles the login/logout function of the site.  
-class SessionsController < ApplicationController
+class <%= controller_class_name %>Controller < ApplicationController
   # Be sure to include AuthenticationSystem in Application Controller instead
   include AuthenticatedSystem
 
@@ -9,16 +9,16 @@ class SessionsController < ApplicationController
 
   def create
     logout_keeping_session!
-    user = User.authenticate(params[:login], params[:password])
-    if user
+    <%= file_name %> = <%= class_name %>.authenticate(params[:login], params[:password])
+    if <%= file_name %>
       # Protects against session fixation attacks, causes request forgery
       # protection if user resubmits an earlier form using back
       # button. Uncomment if you understand the tradeoffs.
       # reset_session
-      self.current_user = user
+      self.current_<%= file_name %> = <%= file_name %>
       new_cookie_flag = (params[:remember_me] == "1")
       handle_remember_cookie! new_cookie_flag
-      redirect_to user_bugs_path(user)
+      redirect_back_or_default('/')
       flash[:notice] = "Logged in successfully"
     else
       note_failed_signin
@@ -31,7 +31,7 @@ class SessionsController < ApplicationController
   def destroy
     logout_killing_session!
     flash[:notice] = "You have been logged out."
-    redirect_to login_path
+    redirect_back_or_default('/')
   end
 
 protected

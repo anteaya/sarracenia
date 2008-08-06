@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Komodo Project File - DO NOT EDIT -->
-<project id="658c9ec2-8607-4a64-bc99-ac51cb18df06" kpf_version="4" name="anteater.kpf">
+<project id="658c9ec2-8607-4a64-bc99-ac51cb18df06" kpf_version="4" name="sarracenia.kpf">
 <macro async="0" icon="chrome://famfamfamsilk/skin/icons/database_add.png" id="067d9ad4-5421-4113-b2b5-defd46278e9b" idref="14fc812f-e5d0-420b-adf0-214cd8013775" keyboard_shortcut="" language="JavaScript" name="Create Databases" rank="100" trigger="trigger_postopen" trigger_enabled="0">
 (function() {
     function populateDatabases() {
