@@ -1,26 +1,19 @@
 ActionController::Routing::Routes.draw do |map|
- 	map.resources :sessions
+  map.logout '/logout', :controller => 'sessions', :action => 'destroy'
+  map.login '/login', :controller => 'sessions', :action => 'new'
+  map.register '/register', :controller => 'users', :action => 'create'
+  map.signup '/signup', :controller => 'users', :action => 'new'
+  map.resources :users, :has_many => [ :projects, :bugs]
 
-	map.home '', :controller => 'sessions', :action => 'new'
+  map.resource :session
 
-	map.login '/login', :controller => 'sessions', :action => 'new'
-
-	map.logout '/logout', :controller => 'sessions', :action => 'destroy'
-
- 	map.resources :permissions
-
-	map.resources :user_groups
-
-	map.resources :users
-
-  map.resources :statuses
-  map.resources :companies
+    #map.resources :users, :has_many => [ :projects, :bugs ]
+ 
+    map.resources :projects, :has_many => :bugs
     
-  map.resources :projects do |project|
-      project.resources :bugs
-  end
-  
-  map.resources :bugs
+    map.resources :bugs
+    map.resources :statuses
+    map.resources :companies
 
   # The priority is based upon order of creation: first created -> highest priority.
 
