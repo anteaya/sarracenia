@@ -41,7 +41,7 @@ class BugsController < ApplicationController
   
   protected
   def find_user
-    @user = current_user || nil
+    @user = @current_user || nil
   end
   
   private
