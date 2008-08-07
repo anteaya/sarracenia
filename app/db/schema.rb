@@ -9,7 +9,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20080806150647) do
+ActiveRecord::Schema.define(:version => 20080807024338) do
 
   create_table "bugs", :force => true do |t|
     t.string   "title"
@@ -26,6 +26,7 @@ ActiveRecord::Schema.define(:version => 20080806150647) do
     t.datetime "updated_at"
     t.integer  "user_id"
     t.integer  "logged_by"
+    t.integer  "status_id"
   end
 
   create_table "companies", :force => true do |t|
@@ -34,27 +35,6 @@ ActiveRecord::Schema.define(:version => 20080806150647) do
     t.string   "contact"
     t.string   "phone"
     t.string   "email"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  create_table "permissions", :force => true do |t|
-    t.string   "name"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  create_table "permissions_user_groups", :id => false, :force => true do |t|
-    t.integer "permission_id"
-    t.integer "user_group_id"
-  end
-
-  create_table "profiles", :force => true do |t|
-    t.string   "first_name"
-    t.string   "last_name"
-    t.string   "email"
-    t.integer  "updated_by"
-    t.boolean  "is_disabled"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
@@ -85,17 +65,7 @@ ActiveRecord::Schema.define(:version => 20080806150647) do
     t.string   "name"
     t.datetime "created_at"
     t.datetime "updated_at"
-  end
-
-  create_table "user_groups", :force => true do |t|
-    t.string   "name"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  create_table "user_groups_users", :id => false, :force => true do |t|
-    t.integer "user_group_id"
-    t.integer "user_id"
+    t.string   "type"
   end
 
   create_table "users", :force => true do |t|
