@@ -1,5 +1,6 @@
 class BugsController < ApplicationController
   layout "application"
+  before_filter :login_required, :except => %w[ index new create ]
   before_filter :find_user
   def index
     #@bugs = Bug.find(:all, :include => [:severity], :conditions => conditions, :order => "bugs.created_at DESC")
@@ -41,7 +42,7 @@ class BugsController < ApplicationController
   
   protected
   def find_user
-    @user = @current_user || nil
+    @user = current_user || nil
   end
   
   private

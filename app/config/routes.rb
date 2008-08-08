@@ -5,7 +5,7 @@ ActionController::Routing::Routes.draw do |map|
   map.signup '/signup', :controller => 'users', :action => 'new'
   map.resources :users, :has_many => [:projects, :bugs]
   map.resource :session
-  
+  map.root :controller => 'bugs'
   #map.resources :users, :has_many => [ :projects, :bugs ]
   
   map.resources :projects, :has_many => :bugs

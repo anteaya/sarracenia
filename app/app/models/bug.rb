@@ -6,6 +6,10 @@ class Bug < ActiveRecord::Base
     belongs_to :user
     
     def self.get_bugs(user, is_fixed = false)
-        self.find(:all, :include => [:severity], :conditions => ["bugs.fixed = ?", is_fixed], :order => "bugs.created_at DESC")
+        if !user
+            self.find(:all, :include => [:severity], :conditions => ["bugs.fixed = ?", is_fixed], :order => "bugs.created_at DESC")
+        else
+            user.bugs.find(:all, :include => [:severity], :conditions => ["bugs.fixed = ?", is_fixed], :order => "bugs.created_at DESC")
+        end
     end
 end

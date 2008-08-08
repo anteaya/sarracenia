@@ -3,7 +3,7 @@
 
 class ApplicationController < ActionController::Base
   helper :all # include all helpers, all the time
-
+  include AuthenticatedSystem
   # See ActionController::RequestForgeryProtection for details
   # Uncomment the :secret if you're not using the cookie session store
   protect_from_forgery # :secret => '186a71d4a5b909de989d59ef4b952d0e'
@@ -12,9 +12,5 @@ class ApplicationController < ActionController::Base
     redirect_to :back
     rescue ActionController::RedirectBackError
     redirect_to path
-  end
-  
-  def logged_in?
-    @current_user.nil?
   end
 end
