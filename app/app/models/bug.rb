@@ -3,6 +3,7 @@ class Bug < ActiveRecord::Base
     validates_numericality_of :project_id, :severity_id
     belongs_to :project
     belongs_to :severity    #Needed for the one-way relationship to the Severities lookup table
+    belongs_to :status, :conditions => "for='bug'"
     belongs_to :user
     
     def self.get_bugs(user, is_fixed = false)

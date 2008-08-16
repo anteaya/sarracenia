@@ -7,6 +7,14 @@
     <%= f.text_field :name %>
   </p>
   <p>
+    <label for="launch_date">Launch Date</label><br />
+    <%= f.date_select :launch_date %>
+  </p>
+  <p>
+    <label for="status">Status of the project</label><br />
+    <%= f.select 'status_id', Status.to_select("for='project'") %>
+  </p>
+  <p>
     <%= f.submit "Update" %>
   </p>
 <% end %>

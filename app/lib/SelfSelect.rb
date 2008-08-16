@@ -2,7 +2,7 @@
 module ActiveRecord
     class Base
         def self.to_select(conditions = nil)
-            find(:all).collect { |x| [x.name, x.id]}
+            find(:all, :conditions => conditions).collect { |x| [x.name, x.id]}
         end
     end
 end

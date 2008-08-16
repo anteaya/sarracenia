@@ -6,7 +6,9 @@
       <th># Of Issues</th>
       <th>Created At</th>
       <th>Last Updated At</th>
-      <th></th>
+      <% if logged_in? -%>
+        <th></th>
+      <% end -%>
     </tr>
     <%= render :partial => 'project', :collection => @projects %>
   </table>

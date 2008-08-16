@@ -17,9 +17,10 @@
           <li><%= link_to 'New bug', new_bug_path %>|</li>
           <li><%= link_to 'Issues', bugs_path %></li>
           <li><%= link_to 'Projects', projects_path %><!-- add the project names here --></li>
-          <li><%= link_to 'Users', users_path %></li>
           <!--<li><a href="#">Settings</a></li>-->
           <%- if logged_in? %>
+          
+          <li><%= link_to 'Users', users_path %></li>
             <li><%= link_to 'Log out', logout_path %></li>
           <% else %>
             <li><%= link_to 'Log in', login_path %></li>

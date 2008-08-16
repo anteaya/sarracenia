@@ -3,10 +3,12 @@
     <td><%= project.bugs.count %></td>
     <td><%= project.created_at.to_s(:long) %></td>
     <td><%= project.updated_at.to_s(:long) %></td>
-    <td>
-        <small>
-            <%= link_to 'Show', project %> | <%= link_to 'Edit', edit_project_path(project) %> |
-            <%= link_to 'Destroy', project, :confirm => 'Are you sure?', :method => :delete %>
-        </small>
-    </td>
+    <% if logged_in? -%>
+        <td>
+            <small>
+                <%= link_to 'Show', project %> | <%= link_to 'Edit', edit_project_path(project) %> |
+                <%= link_to 'Destroy', project, :confirm => 'Are you sure?', :method => :delete %>
+            </small>
+        </td>
+    <% end -%>
 </td>

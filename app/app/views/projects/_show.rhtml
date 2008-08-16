@@ -1,6 +1,10 @@
 <div id="project_display">
     <h1><%= @project.name %></h1>
-    <table>
+    <div>
+        <p><%= @project.status.name %></p>
+        <p><%= distance_of_time_in_words_from_now @project.launch_date %></p>
+    </div>
+ <!--   <table>
         <tr>
             <th>Bug</th>
             <th>Severity</th>
@@ -11,6 +15,6 @@
             <th>Fixed?</th>
             <th></th>
         </tr>
-        <%= render :partial => 'bugs/bug', :collection => @bugs %>
-    </table>
+        
+    </table>-->
 </div>
