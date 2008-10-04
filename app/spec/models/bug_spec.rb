@@ -6,6 +6,8 @@ describe Bug do
     @bug.title = @bug.description = "Testing the BDD way"
     @bug.project_id = 1
     @bug.severity_id = 2
+    @bug.logged_by = 1
+    @bug.save
   end
 
   it "should be valid" do
@@ -13,13 +15,19 @@ describe Bug do
   end
   
   it "should have no errors after save" do
-    @bug.save.should be_true
     @bug.errors.should be_empty
   end
   
   it "should be logged by someone" do
-    @bug.logged_by = 1
-    @bug.save
     @bug.logged_by.should == 1
+  end
+  
+  it "should have only one project" do
+    #project = @bug.project
+    @bug.project.should_not be_nil
+  end
+  
+  it "should have one status" do
+    @bug.status.should_not be_nil
   end
 end

@@ -1,7 +1,26 @@
 # Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
 
-one:
-  name: MyString
+new:
+  id: 1
+  name: New
+  for: project
 
-two:
-  name: MyString
+in_progress:
+  id: 2
+  name: In Progress
+  for: project
+  
+launched:
+  id: 3
+  name: Launched
+  for: project
+  
+open:
+  id: 4
+  name: Open
+  for: bug
+
+closed:
+  id: 5
+  name: Closed
+  for: bug

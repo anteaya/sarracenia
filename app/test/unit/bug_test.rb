@@ -1,17 +1,18 @@
 require File.dirname(__FILE__) + '/../test_helper'
 
 class BugTest < ActiveSupport::TestCase
-  # Replace this with your real tests.
+  fixtures :statuses
+  def setup
+    @bug = Bug.new
+    populate_bug @bug
+  end
   def test_create_bug
-    bug = Bug.new
-    populate_bug(bug)
-    assert_equal bug.save, true
+    assert_equal @bug.save, true
   end
   
   def test_bug_fixed
     bug = Bug.find_by_id(1)
     bug.fixed = true
-    bug.date_fixed = Time.now
     bug.save    
     assert_equal bug.fixed, true
   end
@@ -19,26 +20,33 @@ class BugTest < ActiveSupport::TestCase
   def test_bug_fixed_date
     bug = Bug.find_by_id(1)
     bug.date_fixed = Time.now
-    assert_equal bug.date_fixed, Time.now
+    bug.save
+    assert_equal bug.date_fixed.to_s(:db), Time.now.to_s(:db)
   end
   
   def test_update_severity
-    bug = Bug.find_by_id(1)
-    bug.severity_id=2
-    assert_equal bug.save, true
+    @bug.severity_id=2
+    assert_equal @bug.save, true
   end
   
   def test_bug_destroy
-    bug = Bug.new
-    populate_bug bug
-    bug.destroy
-    assert_equal bug.frozen?, true
+    @bug.destroy
+    assert_equal @bug.frozen?, true
   end
   
   def test_bug_project
     bug = Bug.new
     populate_bug bug
     assert_equal bug.project.name, 'MERT'
+  end
+  
+  def test_bug_status
+    @bug.status = statuses(:open)
+    assert_not_nil @bug.status
+  end
+  
+  def teardown
+    @bug = nil
   end
   
   private

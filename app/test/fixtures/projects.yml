@@ -2,6 +2,10 @@
 mert:
     id: 1
     name: MERT
+    status_id: 2
+    launch_date: <%= 5.months.from_now %>
+    
 rossmac:
     id: 2
     name: Ross-Mac
+    status_id: 1

@@ -10,22 +10,13 @@ class BugsControllerTest < ActionController::TestCase
     @response = ActionController::TestResponse.new
   end
   
-  def test_index
-    get :index
+  def test_should_get_show
+    get :show, :id => 1
     assert_response :redirect
   end
   
-  def test_show
-    get :show, { :id => '2'}
-    assert_response :redirect
-  end
-  
-  def test_create
-    assigns["bug"].title = assigns["bug"].description = "test bug case"
-    assigns["bug"].project_id = 1
-    assigns["bug"].severity_id = 2
-    
-    @bug = Bug.new(assigns[:bug])
-    assert bug.save, true
+  def test_create_should_assign_a_valid_bug
+    post :create, :bug => { :title => "test bug case", :description => "test bug desc", :project_id => 1, :severity_id => 2}
+    assert_valid assigns(:bug)
   end
 end
