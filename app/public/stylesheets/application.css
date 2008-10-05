@@ -1,6 +1,6 @@
 body {
     font-size: 105%;
-    font-family: "Gill Sans MT", "Helvetica", sans-serif, serif;
+    font-family:  "BitStream Vera Sans Roman", "Gill Sans MT",  Arial, sans-serif, serif; /*"Helvetica",*/
     background: url(../images/bug-flower-large.gif) repeat-y center right;
     float:left;
 }
@@ -78,7 +78,7 @@ textarea {
     width: 60%;
     font-size: 250%;
     text-align: left;
-    color: #733944;
+    color: #000; /*733944*/
 }
 
 #nav {
@@ -265,7 +265,7 @@ textarea {
 }
 
 .Medium {
-  background-color: #F4D519;
+  background-color: #E8CE24;
 }
 
 .Low {

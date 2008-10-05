@@ -4,8 +4,8 @@ one:
     id: 1
     title: Sizing cannot be copied as new version
     description: When IPost sizing is rejected by PCL, there is no way for the IPost Solution Manager to copy it as a new version
-    severity: high
-    project: mert
+    severity_id: 2
+    project_id: 1
     team_assigned_to: 1
     user_id: 4
 

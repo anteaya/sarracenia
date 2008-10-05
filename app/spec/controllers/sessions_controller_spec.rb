@@ -3,12 +3,13 @@ require File.dirname(__FILE__) + '/../spec_helper'
 # Be sure to include AuthenticatedTestHelper in spec/spec_helper.rb instead
 # Then, you can remove it from this and the units test.
 include AuthenticatedTestHelper
+include AuthenticatedSystem
 
 describe SessionsController do
   fixtures        :users
   before do 
     @user  = mock_user
-    @login_params = { :login => 'quentin', :password => 'test' }
+    @login_params = { :login => 'srdjan', :password => 'test' }
     User.stub!(:authenticate).with(@login_params[:login], @login_params[:password]).and_return(@user)
   end
   def do_create
@@ -47,7 +48,7 @@ describe SessionsController do
             it "greets me nicely"            do do_create; response.flash[:notice].should =~ /success/i   end
             it "sets/resets/expires cookie"  do controller.should_receive(:handle_remember_cookie!).with(want_remember_me); do_create end
             it "sends a cookie"              do controller.should_receive(:send_remember_cookie!);  do_create end
-            it 'redirects to the home page'  do do_create; response.should redirect_to('/')   end
+            it 'redirects to the home page'  do do_create; response.should redirect_to('/users/1/bugs')   end
             it "does not reset my session"   do controller.should_not_receive(:reset_session).and_return nil; do_create end # change if you uncomment the reset_session path
             if (has_request_token == :valid)
               it 'does not make new token'   do @user.should_not_receive(:remember_me);   do_create end
@@ -73,10 +74,10 @@ describe SessionsController do
   describe "on failed login" do
     before do
       User.should_receive(:authenticate).with(anything(), anything()).and_return(nil)
-      login_as :quentin
+      login_as :srdjan
     end
     it 'logs out keeping session'   do controller.should_receive(:logout_keeping_session!); do_create end
-    it 'flashes an error'           do do_create; flash[:error].should =~ /Couldn't log you in as 'quentin'/ end
+    it 'flashes an error'           do do_create; flash[:error].should =~ /Couldn't log you in as 'srdjan'/ end
     it 'renders the log in page'    do do_create; response.should render_template('new')  end
     it "doesn't log me in"          do do_create; controller.logged_in?().should == false end
     it "doesn't send password back" do 
@@ -91,7 +92,7 @@ describe SessionsController do
       get :destroy
     end
     before do 
-      login_as :quentin
+      login_as :srdjan
     end
     it 'logs me out'                   do controller.should_receive(:logout_killing_session!); do_destroy end
     it 'redirects me to the home page' do do_destroy; response.should be_redirect     end

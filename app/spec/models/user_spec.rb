@@ -134,13 +134,13 @@ describe User do
   end
 
   it 'resets password' do
-    users(:quentin).update_attributes(:password => 'new password', :password_confirmation => 'new password')
-    User.authenticate('quentin', 'new password').should == users(:quentin)
+    users(:srdjan).update_attributes(:password => 'new password', :password_confirmation => 'new password')
+    User.authenticate('batasrki', 'new password').should == users(:srdjan)
   end
 
   it 'does not rehash password' do
-    users(:quentin).update_attributes(:login => 'quentin2')
-    User.authenticate('quentin2', 'monkey').should == users(:quentin)
+    users(:srdjan).update_attributes(:login => 'srdjan2')
+    User.authenticate('srdjan2', 'srkijevo').should == users(:srdjan)
   end
 
   #
@@ -148,11 +148,11 @@ describe User do
   #
 
   it 'authenticates user' do
-    User.authenticate('quentin', 'monkey').should == users(:quentin)
+    User.authenticate('batasrki', 'srkijevo').should == users(:srdjan)
   end
 
-  it "doesn't authenticates user with bad password" do
-    User.authenticate('quentin', 'monkey').should == users(:quentin)
+  it "doesn't authenticate user with bad password" do
+    User.authenticate('srdjan', 'batasrki').should_not == users(:srdjan)
   end
 
  if REST_AUTH_SITE_KEY.blank? 
@@ -169,7 +169,7 @@ describe User do
    desired_encryption_expensiveness_ms = 0.1
    it "takes longer than #{desired_encryption_expensiveness_ms}ms to encrypt a password" do
      test_reps = 100
-     start_time = Time.now; test_reps.times{ User.authenticate('quentin', 'monkey'+rand.to_s) }; end_time   = Time.now
+     start_time = Time.now; test_reps.times{ User.authenticate('srdjan', 'monkey'+rand.to_s) }; end_time   = Time.now
      auth_time_ms = 1000 * (end_time - start_time)/test_reps
      auth_time_ms.should > desired_encryption_expensiveness_ms
    end
@@ -180,42 +180,42 @@ describe User do
   #
 
   it 'sets remember token' do
-    users(:quentin).remember_me
-    users(:quentin).remember_token.should_not be_nil
-    users(:quentin).remember_token_expires_at.should_not be_nil
+    users(:srdjan).remember_me
+    users(:srdjan).remember_token.should_not be_nil
+    users(:srdjan).remember_token_expires_at.should_not be_nil
   end
 
   it 'unsets remember token' do
-    users(:quentin).remember_me
-    users(:quentin).remember_token.should_not be_nil
-    users(:quentin).forget_me
-    users(:quentin).remember_token.should be_nil
+    users(:srdjan).remember_me
+    users(:srdjan).remember_token.should_not be_nil
+    users(:srdjan).forget_me
+    users(:srdjan).remember_token.should be_nil
   end
 
   it 'remembers me for one week' do
     before = 1.week.from_now.utc
-    users(:quentin).remember_me_for 1.week
+    users(:srdjan).remember_me_for 1.week
     after = 1.week.from_now.utc
-    users(:quentin).remember_token.should_not be_nil
-    users(:quentin).remember_token_expires_at.should_not be_nil
-    users(:quentin).remember_token_expires_at.between?(before, after).should be_true
+    users(:srdjan).remember_token.should_not be_nil
+    users(:srdjan).remember_token_expires_at.should_not be_nil
+    users(:srdjan).remember_token_expires_at.between?(before, after).should be_true
   end
 
   it 'remembers me until one week' do
     time = 1.week.from_now.utc
-    users(:quentin).remember_me_until time
-    users(:quentin).remember_token.should_not be_nil
-    users(:quentin).remember_token_expires_at.should_not be_nil
-    users(:quentin).remember_token_expires_at.should == time
+    users(:srdjan).remember_me_until time
+    users(:srdjan).remember_token.should_not be_nil
+    users(:srdjan).remember_token_expires_at.should_not be_nil
+    users(:srdjan).remember_token_expires_at.should == time
   end
 
   it 'remembers me default two weeks' do
     before = 2.weeks.from_now.utc
-    users(:quentin).remember_me
+    users(:srdjan).remember_me
     after = 2.weeks.from_now.utc
-    users(:quentin).remember_token.should_not be_nil
-    users(:quentin).remember_token_expires_at.should_not be_nil
-    users(:quentin).remember_token_expires_at.between?(before, after).should be_true
+    users(:srdjan).remember_token.should_not be_nil
+    users(:srdjan).remember_token_expires_at.should_not be_nil
+    users(:srdjan).remember_token_expires_at.between?(before, after).should be_true
   end
 
 protected

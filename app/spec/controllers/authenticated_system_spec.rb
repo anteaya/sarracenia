@@ -14,7 +14,7 @@ describe SessionsController do
   end    
   describe "logout_killing_session!" do
     before do
-      login_as :quentin
+      login_as :srdjan
       stub!(:reset_session)
     end
     it 'resets the session'         do should_receive(:reset_session);         logout_killing_session! end
@@ -36,7 +36,7 @@ describe SessionsController do
 
   describe "logout_keeping_session!" do
     before do
-      login_as :quentin
+      login_as :srdjan
       stub!(:reset_session)
     end
     it 'does not reset the session' do should_not_receive(:reset_session);   logout_keeping_session! end

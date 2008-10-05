@@ -1,12 +1,15 @@
 require File.dirname(__FILE__) + '/../spec_helper'
 
 describe Bug do
+  fixtures :statuses, :projects, :users, :severities
+  
   before(:each) do
     @bug = Bug.new
     @bug.title = @bug.description = "Testing the BDD way"
-    @bug.project_id = 1
-    @bug.severity_id = 2
-    @bug.logged_by = 1
+    @bug.project = projects(:mert)
+    @bug.severity = severities(:high)
+    @bug.logged_by = users(:srdjan)
+    @bug.status = statuses(:open)
     @bug.save
   end
 
@@ -19,11 +22,10 @@ describe Bug do
   end
   
   it "should be logged by someone" do
-    @bug.logged_by.should == 1
+    @bug.logged_by.should == users(:srdjan).id
   end
   
   it "should have only one project" do
-    #project = @bug.project
     @bug.project.should_not be_nil
   end
   
