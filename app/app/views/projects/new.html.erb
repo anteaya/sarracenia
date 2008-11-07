@@ -11,6 +11,9 @@
     <label for="status_id">Status:</label><br /><%= f.select :status_id, Status.to_select %>
   </p>
   <p>
+    <label for="launch_date">Preliminary launch date:</label><br /><%= f.date_select :launch_date %>
+  </p>
+  <p>
     <%= f.submit "Create" %>
   </p>
 <% end %>

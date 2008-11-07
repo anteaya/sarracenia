@@ -1,8 +1,8 @@
 <div id="project_display">
     <h1><%= @project.name %></h1>
     <div>
-        <p><%= @project.status.name %></p>
-        <p><%= distance_of_time_in_words_from_now @project.launch_date %></p>
+        <p>Project status:<%= @project.status.name %></p>
+        <p>Launching <%= distance_of_time_in_words_from_now @project.launch_date %></p>
     </div>
  <!--   <table>
         <tr>
