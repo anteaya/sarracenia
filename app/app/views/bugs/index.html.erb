@@ -1,19 +1,4 @@
 <div id="index">
-    <h1>Current issues</h1>
-    <div>
-        <%= link_to 'Fixed', :fixed => 't' %> | <%= link_to 'Not Fixed', :action => 'index' %>
-    </div>
-    <table>
-        <tr>
-            <th>Bug</th>
-            <th>Severity</th>
-            <th>Assigned To</th>
-            <th>Logged By</th>
-            <th>Log Dated</th>
-            <th>Last Update</th>
-            <th>Fixed?</th>
-            <th></th>
-        </tr>
-        <%= render :partial => 'bug', :collection => @bugs %>
-    </table>
+    <h1>All current issues</h1>
+    <%= render :partial => 'index', :locals => { :bugs => @bugs } %>
 </div>

@@ -1,0 +1,16 @@
+<tr>
+    <td><%=h user.name %></td>
+    <td>
+        <%- user.projects.each do |project| %>
+            <%=h project.title %>
+        <% end -%>
+    </td>
+    <td><%= user.bugs.active.size %></td>
+    <td><%= user.bugs.fixed.size %></td>
+    <td>
+        <small> <%= link_to 'More details', user %> |
+                <%= link_to 'Edit', edit_user_path(user) %> |
+                <%= link_to 'Delete', user, :confirm => 'Are you sure?', :method => :delete %>
+        </small>
+    </td>
+</tr>

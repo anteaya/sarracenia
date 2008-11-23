@@ -6,7 +6,7 @@ require File.dirname(__FILE__) + '/../spec_helper'
 include AuthenticatedTestHelper
 
 describe User do
-  fixtures :users
+  fixtures :users, :bugs
 
   describe 'being created' do
     before do
@@ -217,7 +217,13 @@ describe User do
     users(:srdjan).remember_token_expires_at.should_not be_nil
     users(:srdjan).remember_token_expires_at.between?(before, after).should be_true
   end
-
+  it "has 0 or more active bugs" do
+    users(:srdjan).bugs.active.size.should >= 0
+  end
+  
+  it "has 0 or more fixed bugs" do
+    users(:srdjan).bugs.fixed.size.should >= 0
+  end
 protected
   def create_user(options = {})
     record = User.new({ :login => 'quire', :email => 'quire@example.com', :password => 'quire69', :password_confirmation => 'quire69' }.merge(options))

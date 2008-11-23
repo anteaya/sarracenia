@@ -5,12 +5,21 @@ class Bug < ActiveRecord::Base
     belongs_to :severity    #Needed for the one-way relationship to the Severities lookup table
     belongs_to :status, :conditions => "for='bug'"
     belongs_to :user
+    named_scope :fixed, :conditions => ['fixed = ?', true]
+    named_scope :active, :conditions => ['fixed = ?', false]
     
     def self.get_bugs(user, is_fixed = false)
         if !user
-            self.find(:all, :include => [:severity], :conditions => ["bugs.fixed = ?", is_fixed], :order => "bugs.created_at DESC")
+            return self.fixed if is_fixed
+            return self.active unless is_fixed
+            #self.find(:all, :include => [:severity], :conditions => ["bugs.fixed = ?", is_fixed], :order => "bugs.created_at DESC")
         else
-            user.bugs.find(:all, :include => [:severity], :conditions => ["bugs.fixed = ?", is_fixed], :order => "bugs.created_at DESC")
+            if is_fixed
+                user.bugs.fixed
+            else
+                user.bugs.active
+            end
+            #user.bugs.find(:all, :include => [:severity], :conditions => ["bugs.fixed = ?", is_fixed], :order => "bugs.created_at DESC")
         end
     end
 end

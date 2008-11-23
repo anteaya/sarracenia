@@ -1,8 +1,8 @@
 <tr>
     <td><%= project.name %></td>
     <td><%= project.bugs.count %></td>
-    <td><%= project.created_at.to_s(:long) %></td>
-    <td><%= project.updated_at.to_s(:long) %></td>
+    <td><%= project.status.name %></td>
+    <td><%= project.launch_date.to_s(:long) %></td>
     <% if logged_in? -%>
         <td>
             <small>
@@ -11,4 +11,4 @@
             </small>
         </td>
     <% end -%>
-</td>
+</tr>

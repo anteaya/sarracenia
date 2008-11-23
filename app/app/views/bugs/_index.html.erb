@@ -1,0 +1,16 @@
+<div>
+    <%= link_to 'Fixed', :fixed => 't' %> | <%= link_to 'Not Fixed', :fixed => 'f' %>
+</div>
+<table>
+    <tr>
+        <th>Bug</th>
+        <th>Severity</th>
+        <th>Assigned To</th>
+        <th>Logged By</th>
+        <th>Log Dated</th>
+        <th>Last Update</th>
+        <th>Fixed?</th>
+        <th></th>
+    </tr>
+    <%= render :partial => 'bugs/bug', :collection => bugs %>
+</table>

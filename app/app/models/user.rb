@@ -19,6 +19,7 @@ class User < ActiveRecord::Base
   validates_format_of       :email,    :with => RE_EMAIL_OK, :message => MSG_EMAIL_BAD
 
   has_many :bugs
+  has_many :project_subscriptions
   has_many :projects, :through => :project_subscriptions
 
   # HACK HACK HACK -- how to do attr_accessible from here?
@@ -38,7 +39,7 @@ class User < ActiveRecord::Base
     u = find_by_login(login) # need to get the salt
     u && u.authenticated?(password) ? u : nil
   end
-
+  
   protected
     
 

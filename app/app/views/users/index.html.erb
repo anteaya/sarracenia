@@ -1,0 +1,13 @@
+<div id="index">
+  <h1>All Users</h1>
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Assigned to projects</th>
+      <th># of issues active</th>
+      <th># of issues fixed</th>
+      <th></th>
+    </tr>
+    <%= render :partial => 'user', :collection => @users %>
+  </table>
+</div>

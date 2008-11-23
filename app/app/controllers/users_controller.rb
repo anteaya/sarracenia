@@ -9,6 +9,13 @@ class UsersController < ApplicationController
   def new
     @user = User.new
   end
+  
+  def show
+          fixed = params[:fixed] || false
+          @user = User.find(params[:id])
+          @bugs = @user.bugs.active unless fixed
+          @bugs = @user.bugs.fixed if fixed
+  end
  
   def create
     logout_keeping_session!

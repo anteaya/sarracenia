@@ -25,11 +25,25 @@ describe Bug do
     @bug.logged_by.should == users(:srdjan).id
   end
   
-  it "should have only one project" do
+  it "should assigned to a project" do
     @bug.project.should_not be_nil
   end
   
-  it "should have one status" do
+  it "should have a status" do
     @bug.status.should_not be_nil
+  end
+  
+  it "should return fixed bugs" do
+    Bug.fixed.size.should == 0
+  end
+  
+  it "should return active bugs" do
+    Bug.active.size.should == 2
+  end
+  
+  it "should mark bug as fixed" do
+    @bug.fixed = true
+    @bug.save
+    Bug.fixed.size.should == 1
   end
 end
