@@ -3,9 +3,7 @@ class BugsController < ApplicationController
   before_filter :login_required, :except => %w[ index new create ]
   before_filter :find_user
   def index
-    #@bugs = Bug.find(:all, :include => [:severity], :conditions => conditions, :order => "bugs.created_at DESC")
-    fixed = params[:fixed] || false
-    @bugs = Bug.get_bugs(@user, fixed)
+    @bugs = Bug.get_bugs(params[:fixed])
     format_output @bugs
   end
 

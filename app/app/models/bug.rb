@@ -8,18 +8,11 @@ class Bug < ActiveRecord::Base
     named_scope :fixed, :conditions => ['fixed = ?', true]
     named_scope :active, :conditions => ['fixed = ?', false]
     
-    def self.get_bugs(user, is_fixed = false)
-        if !user
-            return self.fixed if is_fixed
-            return self.active unless is_fixed
-            #self.find(:all, :include => [:severity], :conditions => ["bugs.fixed = ?", is_fixed], :order => "bugs.created_at DESC")
+    def self.get_bugs(is_fixed = false)
+        if is_fixed
+            self.fixed
         else
-            if is_fixed
-                user.bugs.fixed
-            else
-                user.bugs.active
-            end
-            #user.bugs.find(:all, :include => [:severity], :conditions => ["bugs.fixed = ?", is_fixed], :order => "bugs.created_at DESC")
+            self.active 
         end
     end
 end

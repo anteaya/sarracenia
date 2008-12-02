@@ -1,273 +1,117 @@
-body {
-    font-size: 105%;
-    font-family:  "BitStream Vera Sans Roman", "Gill Sans MT",  Arial, sans-serif, serif; /*"Helvetica",*/
-    background: url(../images/bug-flower-large.gif) repeat-y center right;
-    float:left;
-}
+@import url(reset-fonts-grids.css);
 
-h1 {
-    font-size: 116%;
-    font-weight: bold;
-}
+/* IE Hacks
+  *************
+  table: *margin: 1%; 
+  *************
+  table td: *border-right: 1px solid #593639; *border-bottom: 1px solid #593639;
+  *************
+  #index, #new, .index:   *width: 85%; *margin: 2% 2% 2% 3%;
+  *************
+*/
 
-table {
-    width: auto;
-    margin: 1.5%;
-    *margin: 1%;
-    border-left: 1px solid #593639;
-    border-top: 1px solid #593639;
-}
+html { background: #2f2f2f; }
 
-table td {
-    border-left: 1px solid #593639;
-    border-top: 1px solid #593639;
-    padding: 0.5% 0.25%;
-    width: 10%;
-    *border-right: 1px solid #593639;
-    *border-bottom: 1px solid #593639;
-}
+html body { text-align: left; font-size: 62.5%; font-family:  "BitStream Vera Sans Roman", "Gill Sans MT",  Arial, sans-serif, serif; }
 
-table th, tr {
-    border-right: 1px solid #593639;
-    border-bottom: 1px solid #593639;
-    padding: 0.5%;
-    text-align: left;
-    width: 10%;
-}
-table th {
-    background: #aaa;
-}
+h2 { font-size: 250%; font-weight: bold;  text-align: left; padding: 1.5%;}
 
-p {
-    margin-bottom: 5%;
-    margin-left: 1%;
-}
+table { width: auto; margin: 1.5%; border-left: 1px solid #593639; border-top: 1px solid #593639;  font-size: 130%;}
 
-select, input {
-    width: 15em;
-}
+table td { border-left: 1px solid #593639; border-top: 1px solid #593639;  padding: 0.5% 0.25%; width: 10%; }
 
-textarea, input[type='text'] {
-    width: 20em;
-}
+table th, tr { border-right: 1px solid #593639; border-bottom: 1px solid #593639; padding: 0.5%; text-align: left; width: 10%; }
 
-textarea {
-    height: 20em;
-}
+table th { background: #956B59; }
 
+p { margin: 0 0 5% 1%; text-align: left; }
 
-#container {
-    
-}
+select, input { width: 15em; }
 
-#header, #main {
-    float: left;
-    clear: both;
-    width: 100%;
-    /*border: 1px solid #000;
-    background: url(../images/bug-flower.gif) no-repeat 0 0;*/
-}
+textarea, input[type='text'], input[type='password'] { width: 20em; }
 
-#header img, #header h1 {
-    float: left;
-    margin-left: 5%;
-    /*border: 1px solid #000;*/
-}
+textarea { height: 20em; }
 
-#header h1 {
-    width: 60%;
-    font-size: 250%;
-    text-align: left;
-    color: #000; /*733944*/
-}
+#wrap { width: 96em; margin: 0 auto; opacity: 1.0; }
 
-#nav {
-    /*border: 1px solid #000;*/
-    margin-top: 2%;
-    float: left;
-    width: 50%;
-}
+#container { float: left; width: 100%;  background: #f2f2f2; }
 
-#nav ul li {
-    display: inline;
-}
+#header, #main { float: left; clear: both; width: 100%; }
 
-#new_links {
-    margin-right: 5%;
-    *margin-right: 5%;
-}
+#header h1 { width: 75%; font-size: 400%; text-align: left; color: #2f2f2f; margin: 0.5% 0 0 2%; font-weight: 500;}
 
+#nav { margin: 2% 0 0 2.5%; float: left; width: 100%; font-size: 170%; padding: 0; }
 
-#container {
-    float: left;
-    width: 73.076em;
-    margin: auto 10px;
-    *width:71.25em;
-    background: transparent;
-    /*border: 1px dashed #f00;*/
-}
+#nav ul li { display: inline;  padding: 0;}
+
+#new_links { margin: 0 5% 0 0; }
 
 #index, #new, .index {
-    background: #733944;
+    background: #2D3C2D;
     color: #fff;
     border: 1px solid #000;
-    width: 80%;
-    margin: 0.5% 2% 2% 5%;    
+    width: 95%;
+    margin: 0.5% 2% 0 2%;
     padding: 0;
     float: left;
-    *width: 85%;
-    *margin: 2% 2% 2% 3%;
 }
 
-#index th, .index th {
-    background: #8C6868;
-}
+#index th, .index th { background: #956B59; }
 
-#index a, #index td a, .index a, .index td a {
-    color: #fff;
-}
+#index div { float: left; padding: 1.5%;}
 
-#index a:hover, #index td a:hover, .index a:hover, .index td a:hover {
-    background: #A63F52;
-}
+#index a, #index td a, .index a, .index td a { color: #fff; }
 
-#index a:visited, #index td a:visited, .index a:visited, .index td a:visited {
-    background: #444;
-    color: #aaa;
-}
+#index a:hover, #index td a:hover, .index a:hover, .index td a:hover { background: #A63F52; }
 
-#new h1, #new label {
-    color: #fff;
-    background: #6b3a41;
-    float: left;
-}
+#index a:visited, #index td a:visited, .index a:visited, .index td a:visited { background: #444; color: #aaa; }
 
-#new .form {
-    width: 100%;
-    float: left;
-    margin-top: 5%;
-}
+#new h1, #new label { color: #fff; background: #6b3a41; float: left; }
 
-#new .form div {
-    float: left;
-}
+#new .form { width: 100%; float: left; margin: 5% 0 0 0; }
 
-#new .form div.second_div {
-    float: left;
-    margin: 0 5%;
-}
+#new .form div { float: left; }
 
-#back_link {
-    margin: 0;
-    padding: 0;
-    float: right;
-}
+#new .form div.second_div { float: left; margin: 0 5%; }
 
-.project td, .project tr, .project th {
-    width: 20%;
-}
+#back_link { margin: 0; padding: 0; float: right; }
 
+.project td, .project tr, .project th { width: 20%; }
 
-#show .links, #edit .links {
-    float: left;
-    margin: 0 1% 0 0;
-    padding: 0;
-}
+#show .links, #edit .links { float: left; margin: 0 1% 0 0; padding: 0; }
 
-#bug_display {
-    float: left;
-    background: #733944;
-    color: #fff;
-    margin-left: 4.5em;
-    padding: 0;
-}
+#bug_display { float: left; background: #733944; color: #fff; margin: 0 0 0 4.5em; padding: 0; }
 
-#show h2, #edit h2 {
-    font-size: 118%;
-    font-weight: bold;
-    margin-bottom: 2em;
-}
+#show h2, #edit h2 { font-size: 118%; font-weight: bold; margin: 0 0 2em 0; }
 
-#bug_display h4 {
-    font-size: 107%;
-    font-weight: bold;
-    color: #bbb;
-    margin-bottom: .5em;
-    text-align:left;
-}
+#bug_display h4 { font-size: 107%; font-weight: bold; color: #bbb; margin: 0 0 0.5em 0; text-align:left; }
 
-#bug_display p {
-    text-align: left;
-}
+#bug_display small { float: left; font-variant: small-caps; font-style: italic; }
 
-#bug_display small {
-    float: left;
-    font-variant: small-caps;
-    font-style: italic;
-}
+#edit_form #top, #edit_form #bottom { float: left; border-left: 1px dashed #000; padding: 0 0 0 2% ; }
 
-#edit_form #top, #edit_form #bottom {
-    float: left;
-    border-left: 1px dashed #000;
-    padding-left: 2% ;
-}
+#edit_form #top { margin: 0 1% 0 0; }
 
-#edit_form #top {
-    margin-right: 1%;
-}
+.fieldWithErrors { padding: 2px; background: #f00; display: table; }
 
-#edit_form label {
-    
-}
+#errorExplanation { width: 400px; border: 2px solid red; padding: 7px 7px 12px 7px; margin: 0 0 20px 0; background-color: #f0f0f0; }
 
-.fieldWithErrors {
-  padding: 2px;
-  background-color: red;
-  display: table;
-}
+#errorExplanation h2 { text-align: left; font-weight: bold; padding: 5px 5px 5px 15px; font-size: 12px; margin: -7px; background-color: #c00; color: #fff; }
 
-#errorExplanation {
-  width: 400px;
-  border: 2px solid red;
-  padding: 7px;
-  padding-bottom: 12px;
-  margin-bottom: 20px;
-  background-color: #f0f0f0;
-}
+#errorExplanation p { color: #333; margin: 0; padding: 5px; }
 
-#errorExplanation h2 {
-  text-align: left;
-  font-weight: bold;
-  padding: 5px 5px 5px 15px;
-  font-size: 12px;
-  margin: -7px;
-  background-color: #c00;
-  color: #fff;
-}
+#errorExplanation ul li { font-size: 12px; list-style: square; }
 
-#errorExplanation p {
-  color: #333;
-  margin-bottom: 0;
-  padding: 5px;
-}
+.Critical { background: #C01919; }
 
-#errorExplanation ul li {
-  font-size: 12px;
-  list-style: square;
-}
+.High { background: #D35820; }
 
-.Critical {
-  background-color: #C01919;
-}
+.Medium { background: #E8CE24; }
 
-.High {
-  background-color: #D35820;
-}
+.Low { background: #82C019; }
 
-.Medium {
-  background-color: #E8CE24;
-}
+div#login { background: #2d3c2d; width: 75%; margin: 1%;  padding: 1%; }
 
-.Low {
-  background-color: #82C019;
-}
+div#login h2, div#login label { color: #f2f2f2; }
+
+div#login label , div#login input{ font-size: 150%;}
