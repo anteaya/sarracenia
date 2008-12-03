@@ -46,7 +46,7 @@ textarea { height: 20em; }
 
 #new_links { margin: 0 5% 0 0; }
 
-#index, #new, .index {
+#index, #new, #show, .index {
     background: #2D3C2D;
     color: #fff;
     border: 1px solid #000;
@@ -57,6 +57,8 @@ textarea { height: 20em; }
 }
 
 #index th, .index th { background: #956B59; }
+
+div.index td { background: #f2f2f2; color: #2f2f2f;}
 
 #index div { float: left; padding: 1.5%;}
 
@@ -78,9 +80,9 @@ textarea { height: 20em; }
 
 .project td, .project tr, .project th { width: 20%; }
 
-#show .links, #edit .links { float: left; margin: 0 1% 0 0; padding: 0; }
+#show .links, #edit .links { width: 32%; float: right; background: #5B6157; margin: 1%; padding: 0; }
 
-#bug_display { float: left; background: #733944; color: #fff; margin: 0 0 0 4.5em; padding: 0; }
+#bug_display { width: 63%; float: left; background: #f2f2f2; color: #2f2f2f; margin: 1%; padding: 0; }
 
 #show h2, #edit h2 { font-size: 118%; font-weight: bold; margin: 0 0 2em 0; }
 

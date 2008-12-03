@@ -1,6 +1,6 @@
 class BugsController < ApplicationController
   layout "application"
-  before_filter :login_required, :except => %w[ index new create ]
+  #before_filter :login_required, :except => %w[ index new create ]
   before_filter :find_user
   def index
     @bugs = Bug.get_bugs(params[:fixed])
