@@ -1,4 +1,4 @@
 <div id="index">
-    <h2>All current issues</h2>
+    <h2>All current issues</h2><span><%= link_to 'Fixed', :fixed => true %> | <%= link_to 'Not Fixed', :fixed => false %></span>
     <%= render :partial => 'index', :locals => { :bugs => @bugs } %>
 </div>

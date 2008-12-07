@@ -1,4 +1,4 @@
-@import url(reset-fonts-grids.css);
+html{color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td {margin:0;padding:0;}table {border-collapse:collapse;border-spacing:0;}fieldset,img {border:0;}address,caption,cite,code,dfn,em,strong,th,var {font-style:normal;font-weight:normal;}li{list-style:none;}caption,th {text-align:left;}h1,h2,h3,h4,h5,h6 {font-size:100%;font-weight:normal;}abbr,acronym {border:0;font-variant:normal;}sup {vertical-align:text-top;}sub {vertical-align:text-bottom;}input,textarea,select {font-family:inherit;font-size:inherit;font-weight:inherit;}legend{color:#000;}body {font:13px/1.231 arial,helvetica,clean,sans-serif;}table {font-size:inherit;font-size:100%;}pre,code,kbd,samp,tt{font-family:monospace;line-height:100%;}body{text-align:center;}
 
 /* IE Hacks
   *************
@@ -10,19 +10,19 @@
   *************
 */
 
-html { background: #2f2f2f; }
+html { background: #735F3C; }
 
 html body { text-align: left; font-size: 62.5%; font-family:  "BitStream Vera Sans Roman", "Gill Sans MT",  Arial, sans-serif, serif; }
 
-h2 { font-size: 250%; font-weight: bold;  text-align: left; padding: 1.5%;}
+h2 { font-size: 250%; font-weight: bold;  text-align: left; padding: 1.5%; width: 30%;}
 
-table { width: auto; margin: 1.5%; border-left: 1px solid #593639; border-top: 1px solid #593639;  font-size: 130%;}
+table { width: auto; margin: 1.5%; border-left: 1px solid #593639; border-top: 1px solid #593639;  font-size: 130%; }
 
 table td { border-left: 1px solid #593639; border-top: 1px solid #593639;  padding: 0.5% 0.25%; width: 10%; }
 
 table th, tr { border-right: 1px solid #593639; border-bottom: 1px solid #593639; padding: 0.5%; text-align: left; width: 10%; }
 
-table th { background: #956B59; }
+table th { background: #BF8B2A; }
 
 p { margin: 0 0 5% 1%; text-align: left; }
 
@@ -32,41 +32,57 @@ textarea, input[type='text'], input[type='password'] { width: 20em; }
 
 textarea { height: 20em; }
 
-#wrap { width: 96em; margin: 0 auto; opacity: 1.0; }
+#wrap { width: 96em; margin: 0 auto; } /* possible addition later: opacity: 0.8;*/
 
-#container { float: left; width: 100%;  background: #f2f2f2; }
+#container { float: left; width: 100%;  background: #f4cb7f; margin: 1% 0; }
 
 #header, #main { float: left; clear: both; width: 100%; }
 
-#header h1 { width: 75%; font-size: 400%; text-align: left; color: #2f2f2f; margin: 0.5% 0 0 2%; font-weight: 500;}
+#header h1 { width: 75%; font-size: 400%; text-align: left; color: #8c8557; margin: 0.5% 0 0 2%; font-weight: 500;}
 
-#nav { margin: 2% 0 0 2.5%; float: left; width: 100%; font-size: 170%; padding: 0; }
+#nav { margin: 2% 0 0 2.5%; float: left; width: 100%; font-size: 170%; padding: 0; background: #73603C;}
 
-#nav ul li { display: inline;  padding: 0;}
+#nav ul li { display: inline;  padding: 0; }
+
+#nav ul li a { text-decoration: none; color: #f4cc7f;}
+
+#nav ul li a:hover { text-decoration: underline; color: #BF8C2A;}
+
+#nav ul li a:visited { background: #2f2f2f; }
+
+#nav ul li a:active { background: #f2f2f2; }
 
 #new_links { margin: 0 5% 0 0; }
 
 #index, #new, #show, .index {
-    background: #2D3C2D;
+    background: #735219;
     color: #fff;
     border: 1px solid #000;
     width: 95%;
-    margin: 0.5% 2% 0 2%;
+    margin: 0.5% 2% 2% 2%;
     padding: 0;
     float: left;
 }
 
-#index th, .index th { background: #956B59; }
+#index th, .index th { background: #BF8B2A; color: #2f2f2f; }
 
 div.index td { background: #f2f2f2; color: #2f2f2f;}
 
 #index div { float: left; padding: 1.5%;}
 
-#index a, #index td a, .index a, .index td a { color: #fff; }
+#index a, #index td a, .index a, .index td a { text-decoration: none; color: #fff; }
 
-#index a:hover, #index td a:hover, .index a:hover, .index td a:hover { background: #A63F52; }
+#index a:hover, #index td a:hover, .index a:hover, .index td a:hover { text-decoration: underline; background: #435914; }
 
-#index a:visited, #index td a:visited, .index a:visited, .index td a:visited { background: #444; color: #aaa; }
+#index a:visited, #index td a:visited, .index a:visited, .index td a:visited { background: #f2b035; color: #a60321; }
+
+#index h2 { float: left; }
+
+/*#index h2:after { content: "|" }*/
+
+#index span { float: left; font-size: 150%; margin: 2.4% 0 0 0;}
+
+#index table { float: left; clear: left; width: 95%; }
 
 #new h1, #new label { color: #fff; background: #6b3a41; float: left; }
 
